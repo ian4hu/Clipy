@@ -26,6 +26,7 @@ target 'Clipy' do
   pod 'BartyCrouch'
   pod 'SwiftLint'
   pod 'SwiftGen'
+  pod "RxRealm"
 
   target 'ClipyTests' do
     inherit! :search_paths
