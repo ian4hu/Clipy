@@ -62,8 +62,8 @@
 /* Class = "NSMenuItem"; title = "Shift"; ObjectID = "IpX-wJ-YEO"; */
 "IpX-wJ-YEO.title" = "Shift";
 
-/* Class = "NSButtonCell"; title = "Pin History"; ObjectID = "QpH-S1-GSe"; */
-"QpH-S1-GSe.title" = "固定历史";
+/* Class = "NSButtonCell"; title = "Pin/Unpin History"; ObjectID = "QpH-S1-GSe"; */
+"QpH-S1-GSe.title" = "固定/取消固定历史";
 
 /* Class = "NSMenuItem"; title = "Control"; ObjectID = "hlL-5R-0wL"; */
 "hlL-5R-0wL.title" = "Control";

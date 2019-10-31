@@ -150,7 +150,7 @@
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="abD-Yb-cgH">
                     <rect key="frame" x="58" y="121" width="237" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="check" title="Pin History" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="QpH-S1-GSe">
+                    <buttonCell key="cell" type="check" title="Pin/Unpin History" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="QpH-S1-GSe">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
