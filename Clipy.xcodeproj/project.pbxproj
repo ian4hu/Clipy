@@ -59,6 +59,7 @@
 		5BBDC13E238D743D002A02DF /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC13D238D743D002A02DF /* CryptoSwift */; };
 		5BBDC141238D7ABE002A02DF /* SwiftHEXColors in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC140238D7ABE002A02DF /* SwiftHEXColors */; };
 		5BBDC144238D7C87002A02DF /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC143238D7C87002A02DF /* Quick */; };
+		5BBDC147238D7D61002A02DF /* AEXML in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC146238D7D61002A02DF /* AEXML */; };
 		5BDDB3E92336277500F150C0 /* EventContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDB3E82336277500F150C0 /* EventContext.swift */; };
 		BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FE688BD47571F5C6290E /* Pods_ClipyTests.framework */; };
 		CAFD12B01F207DBC00DF1CEB /* Observable+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD12AF1F207DBC00DF1CEB /* Observable+Void.swift */; };
@@ -358,6 +359,7 @@
 				5B085A1923696B2500F3450D /* RxRealm.framework in Frameworks */,
 				5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */,
 				5B085A1F23696B2500F3450D /* RxSwift.framework in Frameworks */,
+				5BBDC147238D7D61002A02DF /* AEXML in Frameworks */,
 				5B085A0F23696B2500F3450D /* Realm.framework in Frameworks */,
 				5B085A2123696B2F00F3450D /* KeyHolder.framework in Frameworks */,
 				FAC43E2B1B35DFDF00C06102 /* WebKit.framework in Frameworks */,
@@ -723,6 +725,7 @@
 			packageProductDependencies = (
 				5BBDC13D238D743D002A02DF /* CryptoSwift */,
 				5BBDC140238D7ABE002A02DF /* SwiftHEXColors */,
+				5BBDC146238D7D61002A02DF /* AEXML */,
 			);
 			productName = Clipy;
 			productReference = FAC43DC61B35D8B100C06102 /* Clipy.app */;
@@ -793,6 +796,7 @@
 				5BBDC13C238D743D002A02DF /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 				5BBDC13F238D7ABE002A02DF /* XCRemoteSwiftPackageReference "SwiftHEXColors" */,
 				5BBDC142238D7C87002A02DF /* XCRemoteSwiftPackageReference "Quick" */,
+				5BBDC145238D7D61002A02DF /* XCRemoteSwiftPackageReference "AEXML" */,
 			);
 			productRefGroup = FAC43DC71B35D8B100C06102 /* Products */;
 			projectDirPath = "";
@@ -1454,6 +1458,14 @@
 				minimumVersion = 2.2.0;
 			};
 		};
+		5BBDC145238D7D61002A02DF /* XCRemoteSwiftPackageReference "AEXML" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tadija/AEXML.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1471,6 +1483,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5BBDC142238D7C87002A02DF /* XCRemoteSwiftPackageReference "Quick" */;
 			productName = Quick;
+		};
+		5BBDC146238D7D61002A02DF /* AEXML */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BBDC145238D7D61002A02DF /* XCRemoteSwiftPackageReference "AEXML" */;
+			productName = AEXML;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
