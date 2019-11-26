@@ -57,6 +57,8 @@
 		5B085A30236977A800F3450D /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B052896236968B50045FF00 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B5B564923015F2700F1BAAF /* PasteboardTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */; };
 		5BBDC13E238D743D002A02DF /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC13D238D743D002A02DF /* CryptoSwift */; };
+		5BBDC141238D7ABE002A02DF /* SwiftHEXColors in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC140238D7ABE002A02DF /* SwiftHEXColors */; };
+		5BBDC144238D7C87002A02DF /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC143238D7C87002A02DF /* Quick */; };
 		5BDDB3E92336277500F150C0 /* EventContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDB3E82336277500F150C0 /* EventContext.swift */; };
 		BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FE688BD47571F5C6290E /* Pods_ClipyTests.framework */; };
 		CAFD12B01F207DBC00DF1CEB /* Observable+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD12AF1F207DBC00DF1CEB /* Observable+Void.swift */; };
@@ -364,6 +366,7 @@
 				5B085A0D23696B1B00F3450D /* SwiftHEXColors.framework in Frameworks */,
 				5B085A2723696B2F00F3450D /* Magnet.framework in Frameworks */,
 				5B085A0523696B1200F3450D /* CryptoSwift.framework in Frameworks */,
+				5BBDC141238D7ABE002A02DF /* SwiftHEXColors in Frameworks */,
 				5B085A0723696B1A00F3450D /* RxSwiftExt.framework in Frameworks */,
 				5B085A1D23696B2500F3450D /* RxScreeen.framework in Frameworks */,
 				5B085A1B23696B2500F3450D /* RxRelay.framework in Frameworks */,
@@ -385,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B052897236968B50045FF00 /* RxTest.framework in Frameworks */,
+				5BBDC144238D7C87002A02DF /* Quick in Frameworks */,
 				BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */,
 				5B085A0023696A6400F3450D /* Quick.framework in Frameworks */,
 				5B085A2C236972AC00F3450D /* Nimble.framework in Frameworks */,
@@ -718,6 +722,7 @@
 			name = Clipy;
 			packageProductDependencies = (
 				5BBDC13D238D743D002A02DF /* CryptoSwift */,
+				5BBDC140238D7ABE002A02DF /* SwiftHEXColors */,
 			);
 			productName = Clipy;
 			productReference = FAC43DC61B35D8B100C06102 /* Clipy.app */;
@@ -739,6 +744,9 @@
 				FAC43DDA1B35D8B100C06102 /* PBXTargetDependency */,
 			);
 			name = ClipyTests;
+			packageProductDependencies = (
+				5BBDC143238D7C87002A02DF /* Quick */,
+			);
 			productName = ClipyTests;
 			productReference = FAC43DD81B35D8B100C06102 /* ClipyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -783,6 +791,8 @@
 			mainGroup = FAC43DBD1B35D8B100C06102;
 			packageReferences = (
 				5BBDC13C238D743D002A02DF /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				5BBDC13F238D7ABE002A02DF /* XCRemoteSwiftPackageReference "SwiftHEXColors" */,
+				5BBDC142238D7C87002A02DF /* XCRemoteSwiftPackageReference "Quick" */,
 			);
 			productRefGroup = FAC43DC71B35D8B100C06102 /* Products */;
 			projectDirPath = "";
@@ -1428,6 +1438,22 @@
 				minimumVersion = 1.2.0;
 			};
 		};
+		5BBDC13F238D7ABE002A02DF /* XCRemoteSwiftPackageReference "SwiftHEXColors" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thii/SwiftHEXColors.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+		5BBDC142238D7C87002A02DF /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1435,6 +1461,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5BBDC13C238D743D002A02DF /* XCRemoteSwiftPackageReference "CryptoSwift" */;
 			productName = CryptoSwift;
+		};
+		5BBDC140238D7ABE002A02DF /* SwiftHEXColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BBDC13F238D7ABE002A02DF /* XCRemoteSwiftPackageReference "SwiftHEXColors" */;
+			productName = SwiftHEXColors;
+		};
+		5BBDC143238D7C87002A02DF /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BBDC142238D7C87002A02DF /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
