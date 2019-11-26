@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -56,6 +56,7 @@
 		5B085A2F236977A800F3450D /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0859FF23696A6400F3450D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A30236977A800F3450D /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B052896236968B50045FF00 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B5B564923015F2700F1BAAF /* PasteboardTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */; };
+		5BBDC13E238D743D002A02DF /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC13D238D743D002A02DF /* CryptoSwift */; };
 		5BDDB3E92336277500F150C0 /* EventContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDB3E82336277500F150C0 /* EventContext.swift */; };
 		BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FE688BD47571F5C6290E /* Pods_ClipyTests.framework */; };
 		CAFD12B01F207DBC00DF1CEB /* Observable+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD12AF1F207DBC00DF1CEB /* Observable+Void.swift */; };
@@ -369,6 +370,7 @@
 				FAC43E231B35DFC800C06102 /* Foundation.framework in Frameworks */,
 				5B085A1723696B2500F3450D /* RxOptional.framework in Frameworks */,
 				5B085A2523696B2F00F3450D /* LoginServiceKit.framework in Frameworks */,
+				5BBDC13E238D743D002A02DF /* CryptoSwift in Frameworks */,
 				5B085A0923696B1A00F3450D /* Sauce.framework in Frameworks */,
 				59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */,
 				5B085A1323696B2500F3450D /* RxBlocking.framework in Frameworks */,
@@ -714,6 +716,9 @@
 			dependencies = (
 			);
 			name = Clipy;
+			packageProductDependencies = (
+				5BBDC13D238D743D002A02DF /* CryptoSwift */,
+			);
 			productName = Clipy;
 			productReference = FAC43DC61B35D8B100C06102 /* Clipy.app */;
 			productType = "com.apple.product-type.application";
@@ -776,6 +781,9 @@
 				es,
 			);
 			mainGroup = FAC43DBD1B35D8B100C06102;
+			packageReferences = (
+				5BBDC13C238D743D002A02DF /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = FAC43DC71B35D8B100C06102 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1262,7 +1270,8 @@
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_SWIFT_FLAGS = "-D RELEASE";
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -1280,7 +1289,10 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Clipy/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.clipy-app.Clipy.debug";
@@ -1307,7 +1319,10 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "Clipy/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.clipy-app.Clipy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1335,7 +1350,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ClipyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.clipyapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1356,7 +1375,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = ClipyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.clipyapp.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1395,6 +1418,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BBDC13C238D743D002A02DF /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BBDC13D238D743D002A02DF /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BBDC13C238D743D002A02DF /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAC43DBE1B35D8B100C06102 /* Project object */;
 }
