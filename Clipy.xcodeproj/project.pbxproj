@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCE0FF3143CA68B3118207D /* Pods_Clipy.framework */; };
-		5B052897236968B50045FF00 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052896236968B50045FF00 /* RxTest.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		5B085A0023696A6400F3450D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0859FF23696A6400F3450D /* Quick.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E241B35DFD000C06102 /* AppKit.framework */; };
 		5B085A0723696B1A00F3450D /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052872236968A00045FF00 /* RxSwiftExt.framework */; };
 		5B085A0823696B1A00F3450D /* RxSwiftExt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052872236968A00045FF00 /* RxSwiftExt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -45,10 +43,10 @@
 		5B085A2823696B2F00F3450D /* Magnet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05286F236968A00045FF00 /* Magnet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A2923696B2F00F3450D /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287B236968A10045FF00 /* PINCache.framework */; };
 		5B085A2A23696B2F00F3450D /* PINCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287B236968A10045FF00 /* PINCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A2C236972AC00F3450D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B085A2B236972AC00F3450D /* Nimble.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5B085A2E236977A800F3450D /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B085A2B236972AC00F3450D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A2F236977A800F3450D /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0859FF23696A6400F3450D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A30236977A800F3450D /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B052896236968B50045FF00 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B1F30CA238D82D500AECAC9 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 5B1F30C9238D82D500AECAC9 /* Nimble */; };
 		5B5B564923015F2700F1BAAF /* PasteboardTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */; };
 		5BBDC13E238D743D002A02DF /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC13D238D743D002A02DF /* CryptoSwift */; };
 		5BBDC141238D7ABE002A02DF /* SwiftHEXColors in Frameworks */ = {isa = PBXBuildFile; productRef = 5BBDC140238D7ABE002A02DF /* SwiftHEXColors */; };
@@ -377,11 +375,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B052897236968B50045FF00 /* RxTest.framework in Frameworks */,
+				5B1F30CA238D82D500AECAC9 /* Nimble in Frameworks */,
 				5BBDC144238D7C87002A02DF /* Quick in Frameworks */,
 				BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */,
-				5B085A0023696A6400F3450D /* Quick.framework in Frameworks */,
-				5B085A2C236972AC00F3450D /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,6 +733,7 @@
 			name = ClipyTests;
 			packageProductDependencies = (
 				5BBDC143238D7C87002A02DF /* Quick */,
+				5B1F30C9238D82D500AECAC9 /* Nimble */,
 			);
 			productName = ClipyTests;
 			productReference = FAC43DD81B35D8B100C06102 /* ClipyTests.xctest */;
@@ -785,6 +782,7 @@
 				5BBDC13F238D7ABE002A02DF /* XCRemoteSwiftPackageReference "SwiftHEXColors" */,
 				5BBDC142238D7C87002A02DF /* XCRemoteSwiftPackageReference "Quick" */,
 				5BBDC145238D7D61002A02DF /* XCRemoteSwiftPackageReference "AEXML" */,
+				5B1F30C8238D82D500AECAC9 /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = FAC43DC71B35D8B100C06102 /* Products */;
 			projectDirPath = "";
@@ -1422,6 +1420,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5B1F30C8238D82D500AECAC9 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.4;
+			};
+		};
 		5BBDC13C238D743D002A02DF /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
@@ -1457,6 +1463,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5B1F30C9238D82D500AECAC9 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B1F30C8238D82D500AECAC9 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
 		5BBDC13D238D743D002A02DF /* CryptoSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5BBDC13C238D743D002A02DF /* XCRemoteSwiftPackageReference "CryptoSwift" */;
