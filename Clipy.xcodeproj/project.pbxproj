@@ -10,19 +10,13 @@
 		59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCE0FF3143CA68B3118207D /* Pods_Clipy.framework */; };
 		5B052897236968B50045FF00 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052896236968B50045FF00 /* RxTest.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5B085A0023696A6400F3450D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0859FF23696A6400F3450D /* Quick.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		5B085A0123696AFF00F3450D /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052877236968A00045FF00 /* AEXML.framework */; };
-		5B085A0223696AFF00F3450D /* AEXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052877236968A00045FF00 /* AEXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E241B35DFD000C06102 /* AppKit.framework */; };
-		5B085A0523696B1200F3450D /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052878236968A00045FF00 /* CryptoSwift.framework */; };
-		5B085A0623696B1200F3450D /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052878236968A00045FF00 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A0723696B1A00F3450D /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052872236968A00045FF00 /* RxSwiftExt.framework */; };
 		5B085A0823696B1A00F3450D /* RxSwiftExt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052872236968A00045FF00 /* RxSwiftExt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A0923696B1A00F3450D /* Sauce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287C236968A10045FF00 /* Sauce.framework */; };
 		5B085A0A23696B1B00F3450D /* Sauce.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287C236968A10045FF00 /* Sauce.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A0B23696B1B00F3450D /* Screeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287D236968A10045FF00 /* Screeen.framework */; };
 		5B085A0C23696B1B00F3450D /* Screeen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05287D236968A10045FF00 /* Screeen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A0D23696B1B00F3450D /* SwiftHEXColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052874236968A00045FF00 /* SwiftHEXColors.framework */; };
-		5B085A0E23696B1B00F3450D /* SwiftHEXColors.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052874236968A00045FF00 /* SwiftHEXColors.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A0F23696B2500F3450D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05286E236968A00045FF00 /* Realm.framework */; };
 		5B085A1023696B2500F3450D /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B05286E236968A00045FF00 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A1123696B2500F3450D /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052876236968A00045FF00 /* RealmSwift.framework */; };
@@ -159,9 +153,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5B085A0E23696B1B00F3450D /* SwiftHEXColors.framework in Embed Frameworks */,
 				5B085A0A23696B1B00F3450D /* Sauce.framework in Embed Frameworks */,
-				5B085A0223696AFF00F3450D /* AEXML.framework in Embed Frameworks */,
 				5B085A1C23696B2500F3450D /* RxRelay.framework in Embed Frameworks */,
 				5B085A0C23696B1B00F3450D /* Screeen.framework in Embed Frameworks */,
 				5B085A2A23696B2F00F3450D /* PINCache.framework in Embed Frameworks */,
@@ -176,7 +168,6 @@
 				5B085A1223696B2500F3450D /* RealmSwift.framework in Embed Frameworks */,
 				5B085A1823696B2500F3450D /* RxOptional.framework in Embed Frameworks */,
 				5B085A2423696B2F00F3450D /* LetsMove.framework in Embed Frameworks */,
-				5B085A0623696B1200F3450D /* CryptoSwift.framework in Embed Frameworks */,
 				5B085A1623696B2500F3450D /* RxCocoa.framework in Embed Frameworks */,
 				5B085A1423696B2500F3450D /* RxBlocking.framework in Embed Frameworks */,
 			);
@@ -365,9 +356,7 @@
 				FAC43E2B1B35DFDF00C06102 /* WebKit.framework in Frameworks */,
 				FAC43E291B35DFDA00C06102 /* Cocoa.framework in Frameworks */,
 				FAC43E271B35DFD300C06102 /* Carbon.framework in Frameworks */,
-				5B085A0D23696B1B00F3450D /* SwiftHEXColors.framework in Frameworks */,
 				5B085A2723696B2F00F3450D /* Magnet.framework in Frameworks */,
-				5B085A0523696B1200F3450D /* CryptoSwift.framework in Frameworks */,
 				5BBDC141238D7ABE002A02DF /* SwiftHEXColors in Frameworks */,
 				5B085A0723696B1A00F3450D /* RxSwiftExt.framework in Frameworks */,
 				5B085A1D23696B2500F3450D /* RxScreeen.framework in Frameworks */,
@@ -381,7 +370,6 @@
 				5B085A1323696B2500F3450D /* RxBlocking.framework in Frameworks */,
 				5B085A2323696B2F00F3450D /* LetsMove.framework in Frameworks */,
 				5B085A0B23696B1B00F3450D /* Screeen.framework in Frameworks */,
-				5B085A0123696AFF00F3450D /* AEXML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
