@@ -6,7 +6,8 @@ jobs:
   build:
 
     runs-on: macOS-latest
-
+    strategy:
+      xcode: ['/Applications/Xcode_11.1.app/Contents/Developer']
     steps:
     - uses: actions/checkout@v1
     - name: Build
