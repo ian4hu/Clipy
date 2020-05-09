@@ -6,10 +6,14 @@ jobs:
   build:
 
     runs-on: macOS-latest
-
+    strategy:
+      matrix:
+        xcode: ['/Applications/Xcode_11.1.app/Contents/Developer']
     steps:
     - uses: actions/checkout@v1
     - name: Build
       run: xcode-select -v
     - name: Run tests
+      env:
+        DEVELOPER_DIR: ${{ matrix.xcode }}
       run: xcodebuild -workspace Clipy.xcworkspace -scheme Clipy -destination 'platform=macOS' clean test
