@@ -55,6 +55,9 @@
 		5B085A2E236977A800F3450D /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B085A2B236972AC00F3450D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A2F236977A800F3450D /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B0859FF23696A6400F3450D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B085A30236977A800F3450D /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B052896236968B50045FF00 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B2E5A1924F2775000B672DB /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E5A1824F2774F00B672DB /* PINOperation.framework */; };
+		5B2E5A1A24F2775000B672DB /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E5A1824F2774F00B672DB /* PINOperation.framework */; };
+		5B2E5A1B24F277AE00B672DB /* PINOperation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E5A1824F2774F00B672DB /* PINOperation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B5B564923015F2700F1BAAF /* PasteboardTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */; };
 		5BDDB3E92336277500F150C0 /* EventContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDB3E82336277500F150C0 /* EventContext.swift */; };
 		BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FE688BD47571F5C6290E /* Pods_ClipyTests.framework */; };
@@ -155,6 +158,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				5B2E5A1B24F277AE00B672DB /* PINOperation.framework in Embed Frameworks */,
 				5B085A0E23696B1B00F3450D /* SwiftHEXColors.framework in Embed Frameworks */,
 				5B085A0A23696B1B00F3450D /* Sauce.framework in Embed Frameworks */,
 				5B085A0223696AFF00F3450D /* AEXML.framework in Embed Frameworks */,
@@ -241,6 +245,7 @@
 		5B0859FF23696A6400F3450D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
 		5B085A2B236972AC00F3450D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		5B257DE32309115D00E340DE /* Clipy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clipy-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B2E5A1824F2774F00B672DB /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = Carthage/Build/Mac/PINOperation.framework; sourceTree = "<group>"; };
 		5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardTypeSpec.swift; sourceTree = "<group>"; };
 		5BA49A862310180E0002EDBA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/CPYBetaPreferenceViewController.strings; sourceTree = "<group>"; };
 		5BA49A872310181B0002EDBA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/CPYExcludeAppPreferenceViewController.strings; sourceTree = "<group>"; };
@@ -353,6 +358,7 @@
 				5B085A2923696B2F00F3450D /* PINCache.framework in Frameworks */,
 				5B085A1523696B2500F3450D /* RxCocoa.framework in Frameworks */,
 				5B085A1923696B2500F3450D /* RxRealm.framework in Frameworks */,
+				5B2E5A1924F2775000B672DB /* PINOperation.framework in Frameworks */,
 				5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */,
 				5B085A1F23696B2500F3450D /* RxSwift.framework in Frameworks */,
 				5B085A0F23696B2500F3450D /* Realm.framework in Frameworks */,
@@ -382,6 +388,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2E5A1A24F2775000B672DB /* PINOperation.framework in Frameworks */,
 				5B052897236968B50045FF00 /* RxTest.framework in Frameworks */,
 				BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */,
 				5B085A0023696A6400F3450D /* Quick.framework in Frameworks */,
@@ -395,6 +402,7 @@
 		2CB0F71AAC48A392535FD3B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B2E5A1824F2774F00B672DB /* PINOperation.framework */,
 				5B085A2B236972AC00F3450D /* Nimble.framework */,
 				5B0859FF23696A6400F3450D /* Quick.framework */,
 				5B052896236968B50045FF00 /* RxTest.framework */,
