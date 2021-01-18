@@ -53,8 +53,6 @@ import {{module}}
     self.init(rawValue: identifier)
   }
 }
-
-private final class BundleToken {}
 {% elif storyboards %}
 // Mixed AppKit and UIKit storyboard files found, please invoke swiftgen with these separately
 {% else %}

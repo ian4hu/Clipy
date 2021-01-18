@@ -3,7 +3,6 @@
 
 {% if files %}
 {% set accessModifier %}{% if param.publicAccess %}public{% else %}internal{% endif %}{% endset %}
-{% set documentPrefix %}{{param.documentName|default:"Document"}}{% endset %}
 import Foundation
 
 // swiftlint:disable superfluous_disable_command
@@ -11,16 +10,7 @@ import Foundation
 
 // MARK: - JSON Files
 {% macro fileBlock file %}
-  {% if file.documents.count > 1 %}
-  {% for document in file.documents %}
-  {% set documentName %}{{documentPrefix}}{{forloop.counter}}{% endset %}
-  {{accessModifier}} enum {{documentName|swiftIdentifier:"pretty"|escapeReservedKeywords}} {
-    {% filter indent:2 %}{% call documentBlock file document %}{% endfilter %}
-  }
-  {% endfor %}
-  {% else %}
-  {% call documentBlock file file.documents.first %}
-  {% endif %}
+  {% call documentBlock file file.document %}
 {% endmacro %}
 {% macro documentBlock file document %}
   {% set rootType %}{% call typeBlock document.metadata %}{% endset %}
@@ -62,7 +52,7 @@ import Foundation
 
 // swiftlint:disable identifier_name line_length type_body_length
 {{accessModifier}} enum {{param.enumName|default:"JSONFiles"}} {
-  {% if files.count > 1 %}
+  {% if files.count > 1 or param.forceFileNameEnum %}
   {% for file in files %}
   {{accessModifier}} enum {{file.name|swiftIdentifier:"pretty"|escapeReservedKeywords}} {
     {% filter indent:2 %}{% call fileBlock file %}{% endfilter %}
@@ -77,8 +67,11 @@ import Foundation
 // MARK: - Implementation Details
 
 private func objectFromJSON<T>(at path: String) -> T {
-  let bundle = Bundle(for: BundleToken.self)
-  guard let url = bundle.url(forResource: path, withExtension: nil),
+  {% if param.lookupFunction %}
+  guard let url = {{param.lookupFunction}}(path),
+  {% else %}
+  guard let url = {{param.bundle|default:"BundleToken.bundle"}}.url(forResource: path, withExtension: nil),
+  {% endif %}
     let json = try? JSONSerialization.jsonObject(with: Data(contentsOf: url), options: []),
     let result = json as? T else {
     fatalError("Unable to load JSON at path: \(path)")
@@ -100,8 +93,20 @@ private struct JSONDocument {
     return result
   }
 }
+{% if not param.bundle and not param.lookupFunction %}
 
-private final class BundleToken {}
+// swiftlint:disable convenience_type
+private final class BundleToken {
+  static let bundle: Bundle = {
+    #if SWIFT_PACKAGE
+    return Bundle.module
+    #else
+    return Bundle(for: BundleToken.self)
+    #endif
+  }()
+}
+// swiftlint:enable convenience_type
+{% endif %}
 {% else %}
 // No files found
 {% endif %}

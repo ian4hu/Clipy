@@ -11,7 +11,7 @@ target 'Clipy' do
 #  pod 'Sauce'
   pod 'Sparkle'
 #  pod 'RealmSwift'
-  pod 'Fabric'
+#  pod 'Fabric'
   pod 'Crashlytics'
 #  pod 'RxCocoa'
 #  pod 'RxSwift'

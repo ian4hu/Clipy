@@ -545,6 +545,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = DD45A11AE099AEA55FBFE6770ED8B54B /* Products */;
@@ -784,6 +785,21 @@
 			};
 			name = Release;
 		};
+		778AEFB83163B23235E11AB4BD399036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794DC7E44723DF2C4D5C8ECD5B0D2967 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		8717DDB7A09CC25CEBE5DF989176CB17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C7D1B683E9DF263D01AD679F22A7859 /* Crashlytics.xcconfig */;
@@ -831,21 +847,6 @@
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B2757D413B867ECEFDC200DDE84AFD2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 794DC7E44723DF2C4D5C8ECD5B0D2967 /* SwiftLint.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -928,6 +929,21 @@
 			};
 			name = Debug;
 		};
+		E6D91F2CDD50F80529AC2934CC4EBA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794DC7E44723DF2C4D5C8ECD5B0D2967 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
 		EAE8744DCBAD88B3A113913F7D5E871E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 375AA3AD9BACC681443A7BFA7C603FB0 /* Pods-Clipy.release.xcconfig */;
@@ -963,21 +979,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		EBA0CC105C99CE8BFDA51C62E70EA605 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 794DC7E44723DF2C4D5C8ECD5B0D2967 /* SwiftLint.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx;
-			};
-			name = Debug;
 		};
 		EC74E6A78CB71A8962F8345FD1F76783 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1164,8 +1165,8 @@
 		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBA0CC105C99CE8BFDA51C62E70EA605 /* Debug */,
-				8B2757D413B867ECEFDC200DDE84AFD2 /* Release */,
+				E6D91F2CDD50F80529AC2934CC4EBA2A /* Debug */,
+				778AEFB83163B23235E11AB4BD399036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

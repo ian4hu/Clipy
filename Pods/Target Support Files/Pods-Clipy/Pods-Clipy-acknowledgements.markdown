@@ -5,7 +5,7 @@ This application makes use of the following third party libraries:
 
 MIT License
 
-Copyright (c) 2016-2018 Flinesoft
+Copyright (c) 2016-2020 Flinesoft (alias Cihat Gündüz)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -103,7 +103,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 MIT Licence
 
-Copyright (c) 2019 SwiftGen
+Copyright (c) 2020 SwiftGen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -128,7 +128,7 @@ SOFTWARE.
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Realm Inc.
+Copyright (c) 2020 Realm Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
