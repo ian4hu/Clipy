@@ -37,19 +37,19 @@ class HotKeyServiceSpec: QuickSpec {
                 expect(service.mainKeyCombo?.QWERTYKeyCode) === 9
                 expect(service.mainKeyCombo?.modifiers) === 768
                 expect(service.mainKeyCombo?.doubledModifiers) === false
-                expect(service.mainKeyCombo?.characters) === "V"
+                expect(service.mainKeyCombo?.characters) == "V"
 
                 expect(service.historyKeyCombo).toNot(beNil())
                 expect(service.historyKeyCombo?.QWERTYKeyCode) === 9
                 expect(service.historyKeyCombo?.modifiers) === 4352
                 expect(service.historyKeyCombo?.doubledModifiers) === false
-                expect(service.historyKeyCombo?.characters) === "V"
+                expect(service.historyKeyCombo?.characters) == "v"
 
                 expect(service.snippetKeyCombo).toNot(beNil())
                 expect(service.snippetKeyCombo?.QWERTYKeyCode) === 11
                 expect(service.snippetKeyCombo?.modifiers) === 768
                 expect(service.snippetKeyCombo?.doubledModifiers) === false
-                expect(service.snippetKeyCombo?.characters) === "B"
+                expect(service.snippetKeyCombo?.characters) == "B"
             }
 
             it("Migrate customize settings") {
@@ -73,7 +73,7 @@ class HotKeyServiceSpec: QuickSpec {
                 expect(service.mainKeyCombo?.QWERTYKeyCode) === 0
                 expect(service.mainKeyCombo?.modifiers) === 4352
                 expect(service.mainKeyCombo?.doubledModifiers) === false
-                expect(service.mainKeyCombo?.characters) === "A"
+                expect(service.mainKeyCombo?.characters) == "a"
 
                 expect(service.historyKeyCombo).toNot(beNil())
                 expect(service.historyKeyCombo?.QWERTYKeyCode) === 9
@@ -85,7 +85,7 @@ class HotKeyServiceSpec: QuickSpec {
                 expect(service.snippetKeyCombo?.QWERTYKeyCode) === 11
                 expect(service.snippetKeyCombo?.modifiers) === 4352
                 expect(service.snippetKeyCombo?.doubledModifiers) === false
-                expect(service.snippetKeyCombo?.characters) === "B"
+                expect(service.snippetKeyCombo?.characters) == "b"
             }
 
             afterEach {
