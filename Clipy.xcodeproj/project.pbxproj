@@ -14,27 +14,27 @@
 		5B085A2323696B2F00F3450D /* LetsMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052881236968A10045FF00 /* LetsMove.framework */; };
 		5B085A2423696B2F00F3450D /* LetsMove.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052881236968A10045FF00 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5B5B564923015F2700F1BAAF /* PasteboardTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */; };
-		5B6634BC25B595B900AA3F19 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BB25B595B900AA3F19 /* Realm */; };
-		5B6634BE25B595B900AA3F19 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BD25B595B900AA3F19 /* RealmSwift */; };
-		5B6634C325B596C500AA3F19 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C225B596C500AA3F19 /* RxBlocking */; };
-		5B6634C525B596C500AA3F19 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C425B596C500AA3F19 /* RxCocoa */; };
-		5B6634C725B596C500AA3F19 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C625B596C500AA3F19 /* RxRelay */; };
-		5B6634C925B596C500AA3F19 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C825B596C500AA3F19 /* RxSwift */; };
-		5B6634DC25B598F400AA3F19 /* RxRealm in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634DB25B598F400AA3F19 /* RxRealm */; };
-		5B6634DF25B599BE00AA3F19 /* RxOptional in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634DE25B599BE00AA3F19 /* RxOptional */; };
-		5B6634E225B59A1200AA3F19 /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E125B59A1200AA3F19 /* RxSwiftExt */; };
-		5B6634E525B59AE000AA3F19 /* LoginServiceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E425B59AE000AA3F19 /* LoginServiceKit */; };
-		5B6634E825B59C0300AA3F19 /* Magnet in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E725B59C0300AA3F19 /* Magnet */; };
-		5B6634EB25B59CBB00AA3F19 /* Screeen in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634EA25B59CBB00AA3F19 /* Screeen */; };
-		5B6634EE25B5A16200AA3F19 /* KeyHolder in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634ED25B5A16200AA3F19 /* KeyHolder */; };
-		5B6634F125B5B28400AA3F19 /* RxScreeen in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F025B5B28400AA3F19 /* RxScreeen */; };
-		5B6634F425B5B34D00AA3F19 /* SwiftHEXColors in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F325B5B34D00AA3F19 /* SwiftHEXColors */; };
-		5B6634F725B5B3FB00AA3F19 /* PINCache in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F625B5B3FB00AA3F19 /* PINCache */; };
-		5B6634FA25B5B49300AA3F19 /* AEXML in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F925B5B49300AA3F19 /* AEXML */; };
-		5BAC35A325BAFC5A005075DE /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAC35A225BAFC5A005075DE /* Quick */; };
-		5BAC35A625BAFC7B005075DE /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAC35A525BAFC7B005075DE /* Nimble */; };
+		5B6634BC25B595B900AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BB25B595B900AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634BE25B595B900AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BD25B595B900AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634C325B596C500AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C225B596C500AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634C525B596C500AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C425B596C500AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634C725B596C500AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C625B596C500AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634C925B596C500AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C825B596C500AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634DC25B598F400AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634DB25B598F400AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634DF25B599BE00AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634DE25B599BE00AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634E225B59A1200AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E125B59A1200AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634E525B59AE000AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E425B59AE000AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634E825B59C0300AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E725B59C0300AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634EB25B59CBB00AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634EA25B59CBB00AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634EE25B5A16200AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634ED25B5A16200AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634F125B5B28400AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F025B5B28400AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634F425B5B34D00AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F325B5B34D00AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634F725B5B3FB00AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F625B5B3FB00AA3F19 /* SwiftPackageProductDependency */; };
+		5B6634FA25B5B49300AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F925B5B49300AA3F19 /* SwiftPackageProductDependency */; };
+		5BAC35A325BAFC5A005075DE /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAC35A225BAFC5A005075DE /* SwiftPackageProductDependency */; };
+		5BAC35A625BAFC7B005075DE /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAC35A525BAFC7B005075DE /* SwiftPackageProductDependency */; };
 		5BDDB3E92336277500F150C0 /* EventContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDB3E82336277500F150C0 /* EventContext.swift */; };
-		5BFD62A225B58EA8002ECEC7 /* Sauce in Frameworks */ = {isa = PBXBuildFile; productRef = 5BFD62A125B58EA8002ECEC7 /* Sauce */; };
+		5BFD62A225B58EA8002ECEC7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5BFD62A125B58EA8002ECEC7 /* SwiftPackageProductDependency */; };
 		BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FE688BD47571F5C6290E /* Pods_ClipyTests.framework */; };
 		CAFD12B01F207DBC00DF1CEB /* Observable+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD12AF1F207DBC00DF1CEB /* Observable+Void.swift */; };
 		FA08EDF81D1FED7D000D1D13 /* HotKeyServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08EDF71D1FED7D000D1D13 /* HotKeyServiceSpec.swift */; };
@@ -89,8 +89,8 @@
 		FA6167921D3ABEB10049FA14 /* FolderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167911D3ABEB10049FA14 /* FolderSpec.swift */; };
 		FA6167941D3ACCB90049FA14 /* DraggedDataSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167931D3ACCB90049FA14 /* DraggedDataSpec.swift */; };
 		FA6167961D3ACDD80049FA14 /* SnippetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167951D3ACDD80049FA14 /* SnippetSpec.swift */; };
-		FA6DD5141C7DEDB600317E73 /* (null) in Resources */ = {isa = PBXBuildFile; };
-		FA6DD5151C7DEDB600317E73 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		FA6DD5141C7DEDB600317E73 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		FA6DD5151C7DEDB600317E73 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
 		FA801F4821A99F0400ACBE31 /* AvailableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA801F4721A99F0400ACBE31 /* AvailableType.swift */; };
 		FAA4BCCC2163DC9100FF5D18 /* AccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4BCCB2163DC9100FF5D18 /* AccessibilityService.swift */; };
 		FAC0DCE91DE15FD900309C49 /* DataCleanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0DCE81DE15FD900309C49 /* DataCleanService.swift */; };
@@ -285,32 +285,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B6634F425B5B34D00AA3F19 /* SwiftHEXColors in Frameworks */,
-				5B6634EB25B59CBB00AA3F19 /* Screeen in Frameworks */,
-				5B6634C725B596C500AA3F19 /* RxRelay in Frameworks */,
-				5B6634C325B596C500AA3F19 /* RxBlocking in Frameworks */,
+				5B6634F425B5B34D00AA3F19 /* BuildFile in Frameworks */,
+				5B6634EB25B59CBB00AA3F19 /* BuildFile in Frameworks */,
+				5B6634C725B596C500AA3F19 /* BuildFile in Frameworks */,
+				5B6634C325B596C500AA3F19 /* BuildFile in Frameworks */,
 				5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */,
-				5B6634E525B59AE000AA3F19 /* LoginServiceKit in Frameworks */,
+				5B6634E525B59AE000AA3F19 /* BuildFile in Frameworks */,
 				FAC43E2B1B35DFDF00C06102 /* WebKit.framework in Frameworks */,
 				FAC43E291B35DFDA00C06102 /* Cocoa.framework in Frameworks */,
-				5B6634E225B59A1200AA3F19 /* RxSwiftExt in Frameworks */,
-				5BFD62A225B58EA8002ECEC7 /* Sauce in Frameworks */,
-				5B6634C525B596C500AA3F19 /* RxCocoa in Frameworks */,
-				5B6634C925B596C500AA3F19 /* RxSwift in Frameworks */,
+				5B6634E225B59A1200AA3F19 /* BuildFile in Frameworks */,
+				5BFD62A225B58EA8002ECEC7 /* BuildFile in Frameworks */,
+				5B6634C525B596C500AA3F19 /* BuildFile in Frameworks */,
+				5B6634C925B596C500AA3F19 /* BuildFile in Frameworks */,
 				FAC43E271B35DFD300C06102 /* Carbon.framework in Frameworks */,
-				5B6634F125B5B28400AA3F19 /* RxScreeen in Frameworks */,
-				5B6634DF25B599BE00AA3F19 /* RxOptional in Frameworks */,
+				5B6634F125B5B28400AA3F19 /* BuildFile in Frameworks */,
+				5B6634DF25B599BE00AA3F19 /* BuildFile in Frameworks */,
 				5B085A0523696B1200F3450D /* CryptoSwift.framework in Frameworks */,
-				5B6634BE25B595B900AA3F19 /* RealmSwift in Frameworks */,
+				5B6634BE25B595B900AA3F19 /* BuildFile in Frameworks */,
 				FAC43E231B35DFC800C06102 /* Foundation.framework in Frameworks */,
-				5B6634EE25B5A16200AA3F19 /* KeyHolder in Frameworks */,
-				5B6634BC25B595B900AA3F19 /* Realm in Frameworks */,
-				5B6634F725B5B3FB00AA3F19 /* PINCache in Frameworks */,
-				5B6634FA25B5B49300AA3F19 /* AEXML in Frameworks */,
+				5B6634EE25B5A16200AA3F19 /* BuildFile in Frameworks */,
+				5B6634BC25B595B900AA3F19 /* BuildFile in Frameworks */,
+				5B6634F725B5B3FB00AA3F19 /* BuildFile in Frameworks */,
+				5B6634FA25B5B49300AA3F19 /* BuildFile in Frameworks */,
 				59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */,
 				5B085A2323696B2F00F3450D /* LetsMove.framework in Frameworks */,
-				5B6634DC25B598F400AA3F19 /* RxRealm in Frameworks */,
-				5B6634E825B59C0300AA3F19 /* Magnet in Frameworks */,
+				5B6634DC25B598F400AA3F19 /* BuildFile in Frameworks */,
+				5B6634E825B59C0300AA3F19 /* BuildFile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +318,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BAC35A625BAFC7B005075DE /* Nimble in Frameworks */,
-				5BAC35A325BAFC5A005075DE /* Quick in Frameworks */,
+				5BAC35A625BAFC7B005075DE /* BuildFile in Frameworks */,
+				5BAC35A325BAFC5A005075DE /* BuildFile in Frameworks */,
 				BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,24 +629,24 @@
 			);
 			name = Clipy;
 			packageProductDependencies = (
-				5BFD62A125B58EA8002ECEC7 /* Sauce */,
-				5B6634BB25B595B900AA3F19 /* Realm */,
-				5B6634BD25B595B900AA3F19 /* RealmSwift */,
-				5B6634C225B596C500AA3F19 /* RxBlocking */,
-				5B6634C425B596C500AA3F19 /* RxCocoa */,
-				5B6634C625B596C500AA3F19 /* RxRelay */,
-				5B6634C825B596C500AA3F19 /* RxSwift */,
-				5B6634DB25B598F400AA3F19 /* RxRealm */,
-				5B6634DE25B599BE00AA3F19 /* RxOptional */,
-				5B6634E125B59A1200AA3F19 /* RxSwiftExt */,
-				5B6634E425B59AE000AA3F19 /* LoginServiceKit */,
-				5B6634E725B59C0300AA3F19 /* Magnet */,
-				5B6634EA25B59CBB00AA3F19 /* Screeen */,
-				5B6634ED25B5A16200AA3F19 /* KeyHolder */,
-				5B6634F025B5B28400AA3F19 /* RxScreeen */,
-				5B6634F325B5B34D00AA3F19 /* SwiftHEXColors */,
-				5B6634F625B5B3FB00AA3F19 /* PINCache */,
-				5B6634F925B5B49300AA3F19 /* AEXML */,
+				5BFD62A125B58EA8002ECEC7 /* SwiftPackageProductDependency */,
+				5B6634BB25B595B900AA3F19 /* SwiftPackageProductDependency */,
+				5B6634BD25B595B900AA3F19 /* SwiftPackageProductDependency */,
+				5B6634C225B596C500AA3F19 /* SwiftPackageProductDependency */,
+				5B6634C425B596C500AA3F19 /* SwiftPackageProductDependency */,
+				5B6634C625B596C500AA3F19 /* SwiftPackageProductDependency */,
+				5B6634C825B596C500AA3F19 /* SwiftPackageProductDependency */,
+				5B6634DB25B598F400AA3F19 /* SwiftPackageProductDependency */,
+				5B6634DE25B599BE00AA3F19 /* SwiftPackageProductDependency */,
+				5B6634E125B59A1200AA3F19 /* SwiftPackageProductDependency */,
+				5B6634E425B59AE000AA3F19 /* SwiftPackageProductDependency */,
+				5B6634E725B59C0300AA3F19 /* SwiftPackageProductDependency */,
+				5B6634EA25B59CBB00AA3F19 /* SwiftPackageProductDependency */,
+				5B6634ED25B5A16200AA3F19 /* SwiftPackageProductDependency */,
+				5B6634F025B5B28400AA3F19 /* SwiftPackageProductDependency */,
+				5B6634F325B5B34D00AA3F19 /* SwiftPackageProductDependency */,
+				5B6634F625B5B3FB00AA3F19 /* SwiftPackageProductDependency */,
+				5B6634F925B5B49300AA3F19 /* SwiftPackageProductDependency */,
 			);
 			productName = Clipy;
 			productReference = FAC43DC61B35D8B100C06102 /* Clipy.app */;
@@ -669,8 +669,8 @@
 			);
 			name = ClipyTests;
 			packageProductDependencies = (
-				5BAC35A225BAFC5A005075DE /* Quick */,
-				5BAC35A525BAFC7B005075DE /* Nimble */,
+				5BAC35A225BAFC5A005075DE /* SwiftPackageProductDependency */,
+				5BAC35A525BAFC7B005075DE /* SwiftPackageProductDependency */,
 			);
 			productName = ClipyTests;
 			productReference = FAC43DD81B35D8B100C06102 /* ClipyTests.xctest */;
@@ -715,22 +715,22 @@
 			);
 			mainGroup = FAC43DBD1B35D8B100C06102;
 			packageReferences = (
-				5BFD62A025B58EA8002ECEC7 /* XCRemoteSwiftPackageReference "Sauce" */,
-				5B6634B225B5953B00AA3F19 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
-				5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				5B6634DA25B598F400AA3F19 /* XCRemoteSwiftPackageReference "RxRealm" */,
-				5B6634DD25B599BE00AA3F19 /* XCRemoteSwiftPackageReference "RxOptional" */,
-				5B6634E025B59A1200AA3F19 /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
-				5B6634E325B59AE000AA3F19 /* XCRemoteSwiftPackageReference "LoginServiceKit" */,
-				5B6634E625B59C0300AA3F19 /* XCRemoteSwiftPackageReference "Magnet" */,
-				5B6634E925B59CBB00AA3F19 /* XCRemoteSwiftPackageReference "Screeen" */,
-				5B6634EC25B5A16200AA3F19 /* XCRemoteSwiftPackageReference "KeyHolder" */,
-				5B6634EF25B5B28400AA3F19 /* XCRemoteSwiftPackageReference "RxScreeen" */,
-				5B6634F225B5B34D00AA3F19 /* XCRemoteSwiftPackageReference "SwiftHEXColors" */,
-				5B6634F525B5B3FB00AA3F19 /* XCRemoteSwiftPackageReference "PINCache" */,
-				5B6634F825B5B49300AA3F19 /* XCRemoteSwiftPackageReference "AEXML" */,
-				5BAC35A125BAFC5A005075DE /* XCRemoteSwiftPackageReference "Quick" */,
-				5BAC35A425BAFC7B005075DE /* XCRemoteSwiftPackageReference "Nimble" */,
+				5BFD62A025B58EA8002ECEC7 /* RemoteSwiftPackageReference */,
+				5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634DA25B598F400AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634DD25B599BE00AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634E025B59A1200AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634E325B59AE000AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634E625B59C0300AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634E925B59CBB00AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634EC25B5A16200AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634EF25B5B28400AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634F225B5B34D00AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634F525B5B3FB00AA3F19 /* RemoteSwiftPackageReference */,
+				5B6634F825B5B49300AA3F19 /* RemoteSwiftPackageReference */,
+				5BAC35A125BAFC5A005075DE /* RemoteSwiftPackageReference */,
+				5BAC35A425BAFC7B005075DE /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = FAC43DC71B35D8B100C06102 /* Products */;
 			projectDirPath = "";
@@ -748,7 +748,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1DB5131DDCB4C0007F95C8 /* CPYPreferencesWindowController.xib in Resources */,
-				FA6DD5141C7DEDB600317E73 /* (null) in Resources */,
+				FA6DD5141C7DEDB600317E73 /* BuildFile in Resources */,
 				FA1DB51E1DDCB4C0007F95C8 /* CPYTypePreferenceViewController.xib in Resources */,
 				FA1DB4901DDCA5D9007F95C8 /* Images.xcassets in Resources */,
 				FA1DB51D1DDCB4C0007F95C8 /* CPYShortcutsPreferenceViewController.xib in Resources */,
@@ -757,7 +757,7 @@
 				FA1DB51B1DDCB4C0007F95C8 /* CPYGeneralPreferenceViewController.xib in Resources */,
 				FA1DB51A1DDCB4C0007F95C8 /* CPYExcludeAppPreferenceViewController.xib in Resources */,
 				FA1DB5191DDCB4C0007F95C8 /* CPYBetaPreferenceViewController.xib in Resources */,
-				FA6DD5151C7DEDB600317E73 /* (null) in Resources */,
+				FA6DD5151C7DEDB600317E73 /* BuildFile in Resources */,
 				FA1DB4981DDCB2CB007F95C8 /* Localizable.strings in Resources */,
 				FA1DB49F1DDCB417007F95C8 /* MainMenu.xib in Resources */,
 				FA1DB5221DDCB4C0007F95C8 /* CPYSnippetsEditorWindowController.xib in Resources */,
@@ -782,12 +782,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks.sh",
 				"${PODS_ROOT}/Sparkle/Sparkle.framework",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1368,7 +1366,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5B6634B225B5953B00AA3F19 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+		5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-cocoa";
 			requirement = {
@@ -1376,7 +1374,7 @@
 				minimumVersion = 3.20.0;
 			};
 		};
-		5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
@@ -1384,7 +1382,7 @@
 				minimumVersion = 5.0.1;
 			};
 		};
-		5B6634DA25B598F400AA3F19 /* XCRemoteSwiftPackageReference "RxRealm" */ = {
+		5B6634DA25B598F400AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxRealm";
 			requirement = {
@@ -1392,7 +1390,7 @@
 				minimumVersion = 1.0.1;
 			};
 		};
-		5B6634DD25B599BE00AA3F19 /* XCRemoteSwiftPackageReference "RxOptional" */ = {
+		5B6634DD25B599BE00AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxOptional";
 			requirement = {
@@ -1400,7 +1398,7 @@
 				minimumVersion = 4.1.0;
 			};
 		};
-		5B6634E025B59A1200AA3F19 /* XCRemoteSwiftPackageReference "RxSwiftExt" */ = {
+		5B6634E025B59A1200AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxSwiftExt";
 			requirement = {
@@ -1408,7 +1406,7 @@
 				minimumVersion = 5.1.1;
 			};
 		};
-		5B6634E325B59AE000AA3F19 /* XCRemoteSwiftPackageReference "LoginServiceKit" */ = {
+		5B6634E325B59AE000AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/LoginServiceKit";
 			requirement = {
@@ -1416,7 +1414,7 @@
 				minimumVersion = 2.1.0;
 			};
 		};
-		5B6634E625B59C0300AA3F19 /* XCRemoteSwiftPackageReference "Magnet" */ = {
+		5B6634E625B59C0300AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/Magnet";
 			requirement = {
@@ -1424,7 +1422,7 @@
 				minimumVersion = 3.2.0;
 			};
 		};
-		5B6634E925B59CBB00AA3F19 /* XCRemoteSwiftPackageReference "Screeen" */ = {
+		5B6634E925B59CBB00AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/Screeen";
 			requirement = {
@@ -1432,7 +1430,7 @@
 				minimumVersion = 2.0.1;
 			};
 		};
-		5B6634EC25B5A16200AA3F19 /* XCRemoteSwiftPackageReference "KeyHolder" */ = {
+		5B6634EC25B5A16200AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/KeyHolder";
 			requirement = {
@@ -1440,7 +1438,7 @@
 				minimumVersion = 4.0.0;
 			};
 		};
-		5B6634EF25B5B28400AA3F19 /* XCRemoteSwiftPackageReference "RxScreeen" */ = {
+		5B6634EF25B5B28400AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/RxScreeen";
 			requirement = {
@@ -1448,7 +1446,7 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		5B6634F225B5B34D00AA3F19 /* XCRemoteSwiftPackageReference "SwiftHEXColors" */ = {
+		5B6634F225B5B34D00AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/thii/SwiftHEXColors";
 			requirement = {
@@ -1456,7 +1454,7 @@
 				minimumVersion = 1.4.1;
 			};
 		};
-		5B6634F525B5B3FB00AA3F19 /* XCRemoteSwiftPackageReference "PINCache" */ = {
+		5B6634F525B5B3FB00AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pinterest/PINCache";
 			requirement = {
@@ -1464,7 +1462,7 @@
 				minimumVersion = 3.0.3;
 			};
 		};
-		5B6634F825B5B49300AA3F19 /* XCRemoteSwiftPackageReference "AEXML" */ = {
+		5B6634F825B5B49300AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tadija/AEXML";
 			requirement = {
@@ -1472,7 +1470,7 @@
 				minimumVersion = 4.6.0;
 			};
 		};
-		5BAC35A125BAFC5A005075DE /* XCRemoteSwiftPackageReference "Quick" */ = {
+		5BAC35A125BAFC5A005075DE /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Quick";
 			requirement = {
@@ -1480,7 +1478,7 @@
 				minimumVersion = 2.2.0;
 			};
 		};
-		5BAC35A425BAFC7B005075DE /* XCRemoteSwiftPackageReference "Nimble" */ = {
+		5BAC35A425BAFC7B005075DE /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Nimble";
 			requirement = {
@@ -1488,7 +1486,7 @@
 				minimumVersion = 8.0.4;
 			};
 		};
-		5BFD62A025B58EA8002ECEC7 /* XCRemoteSwiftPackageReference "Sauce" */ = {
+		5BFD62A025B58EA8002ECEC7 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/Sauce";
 			requirement = {
@@ -1499,104 +1497,104 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5B6634BB25B595B900AA3F19 /* Realm */ = {
+		5B6634BB25B595B900AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634B225B5953B00AA3F19 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			package = 5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */;
 			productName = Realm;
 		};
-		5B6634BD25B595B900AA3F19 /* RealmSwift */ = {
+		5B6634BD25B595B900AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634B225B5953B00AA3F19 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			package = 5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */;
 			productName = RealmSwift;
 		};
-		5B6634C225B596C500AA3F19 /* RxBlocking */ = {
+		5B6634C225B596C500AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */;
 			productName = RxBlocking;
 		};
-		5B6634C425B596C500AA3F19 /* RxCocoa */ = {
+		5B6634C425B596C500AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */;
 			productName = RxCocoa;
 		};
-		5B6634C625B596C500AA3F19 /* RxRelay */ = {
+		5B6634C625B596C500AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */;
 			productName = RxRelay;
 		};
-		5B6634C825B596C500AA3F19 /* RxSwift */ = {
+		5B6634C825B596C500AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */;
 			productName = RxSwift;
 		};
-		5B6634DB25B598F400AA3F19 /* RxRealm */ = {
+		5B6634DB25B598F400AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634DA25B598F400AA3F19 /* XCRemoteSwiftPackageReference "RxRealm" */;
+			package = 5B6634DA25B598F400AA3F19 /* RemoteSwiftPackageReference */;
 			productName = RxRealm;
 		};
-		5B6634DE25B599BE00AA3F19 /* RxOptional */ = {
+		5B6634DE25B599BE00AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634DD25B599BE00AA3F19 /* XCRemoteSwiftPackageReference "RxOptional" */;
+			package = 5B6634DD25B599BE00AA3F19 /* RemoteSwiftPackageReference */;
 			productName = RxOptional;
 		};
-		5B6634E125B59A1200AA3F19 /* RxSwiftExt */ = {
+		5B6634E125B59A1200AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634E025B59A1200AA3F19 /* XCRemoteSwiftPackageReference "RxSwiftExt" */;
+			package = 5B6634E025B59A1200AA3F19 /* RemoteSwiftPackageReference */;
 			productName = RxSwiftExt;
 		};
-		5B6634E425B59AE000AA3F19 /* LoginServiceKit */ = {
+		5B6634E425B59AE000AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634E325B59AE000AA3F19 /* XCRemoteSwiftPackageReference "LoginServiceKit" */;
+			package = 5B6634E325B59AE000AA3F19 /* RemoteSwiftPackageReference */;
 			productName = LoginServiceKit;
 		};
-		5B6634E725B59C0300AA3F19 /* Magnet */ = {
+		5B6634E725B59C0300AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634E625B59C0300AA3F19 /* XCRemoteSwiftPackageReference "Magnet" */;
+			package = 5B6634E625B59C0300AA3F19 /* RemoteSwiftPackageReference */;
 			productName = Magnet;
 		};
-		5B6634EA25B59CBB00AA3F19 /* Screeen */ = {
+		5B6634EA25B59CBB00AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634E925B59CBB00AA3F19 /* XCRemoteSwiftPackageReference "Screeen" */;
+			package = 5B6634E925B59CBB00AA3F19 /* RemoteSwiftPackageReference */;
 			productName = Screeen;
 		};
-		5B6634ED25B5A16200AA3F19 /* KeyHolder */ = {
+		5B6634ED25B5A16200AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634EC25B5A16200AA3F19 /* XCRemoteSwiftPackageReference "KeyHolder" */;
+			package = 5B6634EC25B5A16200AA3F19 /* RemoteSwiftPackageReference */;
 			productName = KeyHolder;
 		};
-		5B6634F025B5B28400AA3F19 /* RxScreeen */ = {
+		5B6634F025B5B28400AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634EF25B5B28400AA3F19 /* XCRemoteSwiftPackageReference "RxScreeen" */;
+			package = 5B6634EF25B5B28400AA3F19 /* RemoteSwiftPackageReference */;
 			productName = RxScreeen;
 		};
-		5B6634F325B5B34D00AA3F19 /* SwiftHEXColors */ = {
+		5B6634F325B5B34D00AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634F225B5B34D00AA3F19 /* XCRemoteSwiftPackageReference "SwiftHEXColors" */;
+			package = 5B6634F225B5B34D00AA3F19 /* RemoteSwiftPackageReference */;
 			productName = SwiftHEXColors;
 		};
-		5B6634F625B5B3FB00AA3F19 /* PINCache */ = {
+		5B6634F625B5B3FB00AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634F525B5B3FB00AA3F19 /* XCRemoteSwiftPackageReference "PINCache" */;
+			package = 5B6634F525B5B3FB00AA3F19 /* RemoteSwiftPackageReference */;
 			productName = PINCache;
 		};
-		5B6634F925B5B49300AA3F19 /* AEXML */ = {
+		5B6634F925B5B49300AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634F825B5B49300AA3F19 /* XCRemoteSwiftPackageReference "AEXML" */;
+			package = 5B6634F825B5B49300AA3F19 /* RemoteSwiftPackageReference */;
 			productName = AEXML;
 		};
-		5BAC35A225BAFC5A005075DE /* Quick */ = {
+		5BAC35A225BAFC5A005075DE /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5BAC35A125BAFC5A005075DE /* XCRemoteSwiftPackageReference "Quick" */;
+			package = 5BAC35A125BAFC5A005075DE /* RemoteSwiftPackageReference */;
 			productName = Quick;
 		};
-		5BAC35A525BAFC7B005075DE /* Nimble */ = {
+		5BAC35A525BAFC7B005075DE /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5BAC35A425BAFC7B005075DE /* XCRemoteSwiftPackageReference "Nimble" */;
+			package = 5BAC35A425BAFC7B005075DE /* RemoteSwiftPackageReference */;
 			productName = Nimble;
 		};
-		5BFD62A125B58EA8002ECEC7 /* Sauce */ = {
+		5BFD62A125B58EA8002ECEC7 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5BFD62A025B58EA8002ECEC7 /* XCRemoteSwiftPackageReference "Sauce" */;
+			package = 5BFD62A025B58EA8002ECEC7 /* RemoteSwiftPackageReference */;
 			productName = Sauce;
 		};
 /* End XCSwiftPackageProductDependency section */
