@@ -68,7 +68,7 @@ extension CPYShortcutsPreferenceViewController: RecordViewDelegate {
         }
     }
 
-    func recordView(_ recordView: RecordView, didChangeKeyCombo keyCombo: KeyCombo) {
+    func recordView(_ recordView: RecordView, didChangeKeyCombo keyCombo: KeyCombo?) {
         switch recordView {
         case mainShortcutRecordView:
             AppEnvironment.current.hotKeyService.change(with: .main, keyCombo: keyCombo)

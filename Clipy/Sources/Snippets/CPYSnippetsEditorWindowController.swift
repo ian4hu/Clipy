@@ -461,6 +461,7 @@ extension CPYSnippetsEditorWindowController: NSTextViewDelegate {
 
 // MARK: - RecordView Delegate
 extension CPYSnippetsEditorWindowController: RecordViewDelegate {
+    
     func recordViewShouldBeginRecording(_ recordView: RecordView) -> Bool {
         guard selectedFolder != nil else { return false }
         return true
@@ -476,9 +477,9 @@ extension CPYSnippetsEditorWindowController: RecordViewDelegate {
         AppEnvironment.current.hotKeyService.unregisterSnippetHotKey(with: selectedFolder.identifier)
     }
 
-    func recordView(_ recordView: RecordView, didChangeKeyCombo keyCombo: KeyCombo) {
+    func recordView(_ recordView: RecordView, didChangeKeyCombo keyCombo: KeyCombo?) {
         guard let selectedFolder = selectedFolder else { return }
-        AppEnvironment.current.hotKeyService.registerSnippetHotKey(with: selectedFolder.identifier, keyCombo: keyCombo)
+        AppEnvironment.current.hotKeyService.registerSnippetHotKey(with: selectedFolder.identifier, keyCombo: keyCombo!)
     }
 
     func recordViewDidEndRecording(_ recordView: RecordView) {}
