@@ -1,16 +1,12 @@
 PODS:
-  - BartyCrouch (4.0.2)
-  - Crashlytics (3.14.0):
-    - Fabric (~> 1.10.2)
-  - Fabric (1.10.2)
+  - BartyCrouch (4.4.1)
   - LetsMove (1.25)
-  - Sparkle (1.22.0)
-  - SwiftGen (6.1.0)
-  - SwiftLint (0.36.0)
+  - Sparkle (1.24.0)
+  - SwiftGen (6.4.0)
+  - SwiftLint (0.42.0)
 
 DEPENDENCIES:
   - BartyCrouch
-  - Crashlytics
   - LetsMove
   - Sparkle
   - SwiftGen
@@ -19,22 +15,18 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - BartyCrouch
-    - Crashlytics
-    - Fabric
     - LetsMove
     - Sparkle
     - SwiftGen
     - SwiftLint
 
 SPEC CHECKSUMS:
-  BartyCrouch: 3f3501276901326bf4150341ad801467da972e43
-  Crashlytics: 9220f5bc89e7a618df411b4f639389dbfb0e03d2
-  Fabric: ea977e3cd9c20425516d3dafd3bf8c941c51223f
+  BartyCrouch: cae913efe1d6414781d3aae2103922ef4a4edb6d
   LetsMove: 7b9fe44737707d984fbd3f47af46609a9a07b461
-  Sparkle: 593ac2e677c07bcb6c3b22d621240e7cbedaab57
-  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
-  SwiftLint: fc9859e4e1752340664851f667bb1898b9c90114
+  Sparkle: 270cd27377bf04e9c128af06e3a22d0f572d6ee3
+  SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
 
-PODFILE CHECKSUM: f8e11cccbf30b9de442a84e46c2140192bec4fc9
+PODFILE CHECKSUM: 68383cbd661e9f563f8f51fced2397a69c63b978
 
 COCOAPODS: 1.8.4

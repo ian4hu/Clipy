@@ -12,7 +12,7 @@ target 'Clipy' do
   pod 'Sparkle'
 #  pod 'RealmSwift'
 #  pod 'Fabric'
-  pod 'Crashlytics'
+#  pod 'Crashlytics'
 #  pod 'RxCocoa'
 #  pod 'RxSwift'
 #  pod 'RxOptional'

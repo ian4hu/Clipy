@@ -12,8 +12,8 @@
 
 import Cocoa
 import RealmSwift
-import Fabric
-import Crashlytics
+//import Fabric
+//import Crashlytics
 
 final class CPYUtilities {
 
@@ -21,7 +21,7 @@ final class CPYUtilities {
         // Fabric
         AppEnvironment.current.defaults.register(defaults: ["NSApplicationCrashOnExceptions": true])
         if AppEnvironment.current.defaults.bool(forKey: Constants.UserDefaults.collectCrashReport) {
-            Fabric.with([Answers.self, Crashlytics.self])
+            //Fabric.with([Answers.self, Crashlytics.self])
             CPYUtilities.sendCustomLog(with: "applicationDidFinishLaunching")
         }
     }
@@ -108,7 +108,7 @@ final class CPYUtilities {
 
     static func sendCustomLog(with name: String) {
         if AppEnvironment.current.defaults.bool(forKey: Constants.UserDefaults.collectCrashReport) {
-            Answers.logCustomEvent(withName: name, customAttributes: nil)
+            //Answers.logCustomEvent(withName: name, customAttributes: nil)
         }
     }
 }
