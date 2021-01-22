@@ -8,6 +8,8 @@ git:
   depth: 5
 cache:
   bundler: true
+  directories:
+    - "${HOME}/SourcePackages"
 ##  cocoapods: true
 #  directories:
 #    - "${HOME}/.cocoapods/repos/"

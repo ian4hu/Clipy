@@ -4,3 +4,4 @@ skip_build true
 # verbose true
 clean true
 code_coverage true
+cloned_source_packages_path "SourcePackages"

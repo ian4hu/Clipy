@@ -21,6 +21,7 @@ DerivedData
 # Bundler
 vendor
 .bundle
+SourcePackages/
 
 # CocoaPods
 #
@@ -35,7 +36,7 @@ vendor
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
 
-Carthage/Builda
+Carthage/Build
 
 # fastlane
 #

@@ -2,6 +2,7 @@ workspace "Clipy.xcworkspace"
 scheme "Clipy"
 output_directory "./"
 output_name "Clipy"
-clean true
+#clean true
 configuration "Release"
-export_method "developer-id"
+export_method "validation"
+cloned_source_packages_path "SourcePackages"
