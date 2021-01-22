@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LetsMove/LetsMove.framework
+${PODS_ROOT}/Sparkle/Sparkle.framework
+${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM

@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCE0FF3143CA68B3118207D /* Pods_Clipy.framework */; };
 		5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E241B35DFD000C06102 /* AppKit.framework */; };
-		5B085A0523696B1200F3450D /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052878236968A00045FF00 /* CryptoSwift.framework */; };
-		5B085A0623696B1200F3450D /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052878236968A00045FF00 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5B085A2323696B2F00F3450D /* LetsMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052881236968A10045FF00 /* LetsMove.framework */; };
-		5B085A2423696B2F00F3450D /* LetsMove.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B052881236968A10045FF00 /* LetsMove.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B096C3B25BB176E00604CDF /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B096C3A25BB176E00604CDF /* SwiftPackageProductDependency */; };
 		5B5B564923015F2700F1BAAF /* PasteboardTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */; };
 		5B6634BC25B595B900AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BB25B595B900AA3F19 /* SwiftPackageProductDependency */; };
 		5B6634BE25B595B900AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BD25B595B900AA3F19 /* SwiftPackageProductDependency */; };
@@ -130,8 +127,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5B085A2423696B2F00F3450D /* LetsMove.framework in Embed Frameworks */,
-				5B085A0623696B1200F3450D /* CryptoSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,8 +169,6 @@
 		54ADE1012008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CPYUpdatesPreferenceViewController.strings"; sourceTree = "<group>"; };
 		54ADE1022008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CPYSnippetsEditorWindowController.strings"; sourceTree = "<group>"; };
 		54ADE1032008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		5B052878236968A00045FF00 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/Mac/CryptoSwift.framework; sourceTree = "<group>"; };
-		5B052881236968A10045FF00 /* LetsMove.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LetsMove.framework; path = Carthage/Build/Mac/LetsMove.framework; sourceTree = "<group>"; };
 		5B257DE32309115D00E340DE /* Clipy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clipy-Bridging-Header.h"; sourceTree = "<group>"; };
 		5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardTypeSpec.swift; sourceTree = "<group>"; };
 		5BA49A862310180E0002EDBA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/CPYBetaPreferenceViewController.strings; sourceTree = "<group>"; };
@@ -293,6 +286,7 @@
 				5B6634E525B59AE000AA3F19 /* BuildFile in Frameworks */,
 				FAC43E2B1B35DFDF00C06102 /* WebKit.framework in Frameworks */,
 				FAC43E291B35DFDA00C06102 /* Cocoa.framework in Frameworks */,
+				5B096C3B25BB176E00604CDF /* BuildFile in Frameworks */,
 				5B6634E225B59A1200AA3F19 /* BuildFile in Frameworks */,
 				5BFD62A225B58EA8002ECEC7 /* BuildFile in Frameworks */,
 				5B6634C525B596C500AA3F19 /* BuildFile in Frameworks */,
@@ -300,7 +294,6 @@
 				FAC43E271B35DFD300C06102 /* Carbon.framework in Frameworks */,
 				5B6634F125B5B28400AA3F19 /* BuildFile in Frameworks */,
 				5B6634DF25B599BE00AA3F19 /* BuildFile in Frameworks */,
-				5B085A0523696B1200F3450D /* CryptoSwift.framework in Frameworks */,
 				5B6634BE25B595B900AA3F19 /* BuildFile in Frameworks */,
 				FAC43E231B35DFC800C06102 /* Foundation.framework in Frameworks */,
 				5B6634EE25B5A16200AA3F19 /* BuildFile in Frameworks */,
@@ -308,7 +301,6 @@
 				5B6634F725B5B3FB00AA3F19 /* BuildFile in Frameworks */,
 				5B6634FA25B5B49300AA3F19 /* BuildFile in Frameworks */,
 				59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */,
-				5B085A2323696B2F00F3450D /* LetsMove.framework in Frameworks */,
 				5B6634DC25B598F400AA3F19 /* BuildFile in Frameworks */,
 				5B6634E825B59C0300AA3F19 /* BuildFile in Frameworks */,
 			);
@@ -330,8 +322,6 @@
 		2CB0F71AAC48A392535FD3B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B052878236968A00045FF00 /* CryptoSwift.framework */,
-				5B052881236968A10045FF00 /* LetsMove.framework */,
 				FAC43E2A1B35DFDF00C06102 /* WebKit.framework */,
 				FAC43E281B35DFDA00C06102 /* Cocoa.framework */,
 				FAC43E261B35DFD300C06102 /* Carbon.framework */,
@@ -617,7 +607,6 @@
 				FAC43DC31B35D8B100C06102 /* Frameworks */,
 				FAC43DC41B35D8B100C06102 /* Resources */,
 				FAC43E1D1B35DF4A00C06102 /* Embed Frameworks */,
-				FA4A5CDC1C7CAEDD0031BCEF /* Fabric */,
 				FAAD02201CA98E20007C6EEE /* SwiftLint */,
 				FAAA88991E686CED0088FB34 /* BartyCrouch */,
 				FA10897F20EC24F700A3FEFC /* SwiftGen */,
@@ -647,6 +636,7 @@
 				5B6634F325B5B34D00AA3F19 /* SwiftPackageProductDependency */,
 				5B6634F625B5B3FB00AA3F19 /* SwiftPackageProductDependency */,
 				5B6634F925B5B49300AA3F19 /* SwiftPackageProductDependency */,
+				5B096C3A25BB176E00604CDF /* SwiftPackageProductDependency */,
 			);
 			productName = Clipy;
 			productReference = FAC43DC61B35D8B100C06102 /* Clipy.app */;
@@ -731,6 +721,7 @@
 				5B6634F825B5B49300AA3F19 /* RemoteSwiftPackageReference */,
 				5BAC35A125BAFC5A005075DE /* RemoteSwiftPackageReference */,
 				5BAC35A425BAFC7B005075DE /* RemoteSwiftPackageReference */,
+				5B096C3925BB176E00604CDF /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = FAC43DC71B35D8B100C06102 /* Products */;
 			projectDirPath = "";
@@ -779,13 +770,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks.sh",
-				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -849,20 +839,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\n";
-		};
-		FA4A5CDC1C7CAEDD0031BCEF /* Fabric */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Fabric;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "releaseConfig=\"Release\"\nif [ \"$releaseConfig\" = \"${CONFIGURATION}\" ]; then\n    \"${PODS_ROOT}/Fabric/run\" 4998ae84bce284505281a865e1d5c008c4cf005a 997285f167af87d3ebdb81f2082b53bb03c11f92fca9fc7e62c4052f1d288ab6\nfi";
 		};
 		FAAA88991E686CED0088FB34 /* BartyCrouch */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1366,6 +1342,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5B096C3925BB176E00604CDF /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.1.3;
+			};
+		};
 		5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-cocoa";
@@ -1497,6 +1481,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5B096C3A25BB176E00604CDF /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5B096C3925BB176E00604CDF /* RemoteSwiftPackageReference */;
+			productName = CryptoSwift;
+		};
 		5B6634BB25B595B900AA3F19 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */;
