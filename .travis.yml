@@ -14,10 +14,10 @@ cache:
 #  directories:
 #    - "${HOME}/.cocoapods/repos/"
 
-#install:
-##  - gem install -N bundler --pre
-#  - bundle install --jobs=3 --retry=3 --deployment
-##  - pod install --deployment
+install:
+  - gem install -N bundler --pre
+  - bundle install --jobs=3 --retry=3 --deployment
+  - pod install --deployment
 
 
 jobs:
@@ -29,7 +29,8 @@ jobs:
 
     - stage: deploy
       name: "Deploy to Github"
-      script: bundle exec fastlane mac release
+      script: bash .travis/build.sh
+      #script: bundle exec fastlane mac release
       if: tag IS PRESENT
       before_deploy:
         - bash .travis/prepare_delta.sh
