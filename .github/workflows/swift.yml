@@ -25,7 +25,7 @@ jobs:
       run: bash .travis/prepare_delta.sh
     - name: Sparkle
       env: 
-        SPARKLE_ED25519_KEY: ${{secrets.SPARKLE_ED25519_KEY}}
+        SPARKLE_ED25519_KEY: ${{ secrets.SPARKLE_ED25519_KEY }}
       run: bash .travis/sparkle_keys.sh
     - name: Show appcast.xml
       run: cat appcast.xml
