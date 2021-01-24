@@ -8,7 +8,9 @@ jobs:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Build
+    - name: Show Xcode Version
       run: xcode-select -v
     - name: Run tests
       run: xcodebuild -workspace Clipy.xcworkspace -scheme Clipy -destination 'platform=macOS' clean test
+    - name: Build
+    - run: bash .travis/build.sh
