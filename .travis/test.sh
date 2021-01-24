@@ -1,0 +1,1 @@
+xcodebuild -workspace Clipy.xcworkspace -scheme Clipy -destination 'platform=macOS' clean test | xcpretty

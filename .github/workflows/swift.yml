@@ -11,6 +11,6 @@ jobs:
     - name: Show Xcode Version
       run: xcode-select -v
     - name: Run tests
-      run: xcodebuild -workspace Clipy.xcworkspace -scheme Clipy -destination 'platform=macOS' clean test
+      run: bash .travis/test.sh
     - name: Build
     - run: bash .travis/build.sh
