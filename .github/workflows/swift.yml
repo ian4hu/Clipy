@@ -9,6 +9,14 @@ jobs:
     - uses: actions/checkout@v2
     - name: Show Xcode Version
       run: xcode-select -v
+    - uses: actions/cache@v2
+      with:
+        path: |
+          .build
+          SourcePackages
+        key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
+        restore-keys: |
+          ${{ runner.os }}-spm-
     - name: Download dependencies
       run: xcodebuild -resolvePackageDependencies -workspace Clipy.xcworkspace -scheme Clipy -configuration Release -clonedSourcePackagesDirPath SourcePackages
     - name: Build
@@ -27,6 +35,14 @@ jobs:
     - uses: actions/checkout@v2
     - name: Show Xcode Version
       run: xcode-select -v
+    - uses: actions/cache@v2
+      with:
+        path: |
+          .build
+          SourcePackages
+        key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
+        restore-keys: |
+          ${{ runner.os }}-spm-
     - name: Download dependencies
       run: xcodebuild -resolvePackageDependencies -workspace Clipy.xcworkspace -scheme Clipy -configuration Release -clonedSourcePackagesDirPath SourcePackages
     - name: Run tests
