@@ -2,6 +2,9 @@
 ## NEXT RELEASE
 - TODO
 
+## 1.2.9.beta14
+- upgrade dependecies (use swift packages instead of carthage)
+
 ## 1.2.9.beta13
 - #37, #51 Clear History" disabled in 1.2.9 beta 12
 - #50 Use macOS native folder icon for folder and lock icon for pinned items
