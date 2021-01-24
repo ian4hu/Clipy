@@ -10,7 +10,7 @@ cache:
   bundler: true
   directories:
     - "${HOME}/SourcePackages"
-##  cocoapods: true
+  cocoapods: true
 #  directories:
 #    - "${HOME}/.cocoapods/repos/"
 
