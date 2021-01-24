@@ -7,10 +7,18 @@ jobs:
 
     runs-on: macOS-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Show Xcode Version
       run: xcode-select -v
     - name: Run tests
       run: bash .travis/test.sh
     - name: Build
       run: bash .travis/build.sh
+    - name: Prepare Delta
+      run: bash .travis/prepare_delta.sh
+    - name: Sparkle
+      env: 
+        SPARKLE_ED25519_KEY: ${{secrets.SPARKLE_ED25519_KEY}}
+      run: bash .travis/sparkle_keys.sh
+    - name: Show appcast.xml
+      run: cat appcast.xml
