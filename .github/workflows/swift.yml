@@ -4,14 +4,13 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v2
     - name: Show Xcode Version
       run: xcode-select -v
-    - name: Run tests
-      run: bash .travis/test.sh
+    - name: Download dependencies
+      run: xcodebuild -resolvePackageDependencies -workspace Clipy.xcworkspace -scheme Clipy -configuration Release -clonedSourcePackagesDirPath SourcePackages
     - name: Build
       run: bash .travis/build.sh
     - name: Prepare Delta
@@ -22,3 +21,13 @@ jobs:
       run: bash .travis/sparkle_keys.sh
     - name: Show appcast.xml
       run: cat appcast.xml
+  test: 
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Show Xcode Version
+      run: xcode-select -v
+    - name: Download dependencies
+      run: xcodebuild -resolvePackageDependencies -workspace Clipy.xcworkspace -scheme Clipy -configuration Release -clonedSourcePackagesDirPath SourcePackages
+    - name: Run tests
+      run: bash .travis/test.sh
