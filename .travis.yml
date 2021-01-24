@@ -17,7 +17,7 @@ cache:
 install:
   - gem install -N bundler:2.2.6
   - bundle install --jobs=3 --retry=3
-  - pod install
+#  - pod install
 
 
 jobs:
