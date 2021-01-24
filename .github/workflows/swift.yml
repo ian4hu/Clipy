@@ -13,4 +13,4 @@ jobs:
     - name: Run tests
       run: bash .travis/test.sh
     - name: Build
-    - run: bash .travis/build.sh
+      run: bash .travis/build.sh
