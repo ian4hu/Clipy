@@ -6,7 +6,7 @@ github "Clipy/RxScreeen"
 github "Clipy/Sauce"
 github "Quick/Nimble"
 github "Quick/Quick"
-github "RxSwiftCommunity/RxOptional"
+github "RxSwiftCommunity/RxOptional" ~> 4.1.0
 github "RxSwiftCommunity/RxRealm"
 github "RxSwiftCommunity/RxSwiftExt"
 github "krzyzanowskim/CryptoSwift"

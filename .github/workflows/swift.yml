@@ -6,6 +6,8 @@ jobs:
   build:
     environment: SPARKLE_ED25519_KEY
     runs-on: macOS-latest
+    env:
+      CLIPY_SCHEME: "Clipy"
     steps:
     - uses: actions/checkout@v2
     - name: Show Xcode Version
@@ -66,3 +68,50 @@ jobs:
       run: xcodebuild -resolvePackageDependencies -workspace Clipy.xcworkspace -scheme Clipy -configuration Release -clonedSourcePackagesDirPath SourcePackages
     - name: Run tests
       run: bash .travis/test.sh
+
+  carthage-build: 
+    environment: SPARKLE_ED25519_KEY
+    runs-on: macOS-latest
+    env:
+      CLIPY_SCHEME: "Clipy-Carthage"
+    steps:
+    - uses: actions/checkout@v2
+    - name: Show Xcode Version
+      run: xcode-select -v
+    - uses: actions/cache@v2
+      with:
+        path: |
+          Carthage
+        key: ${{ runner.os }}-carthage-${{ hashFiles('**/Cartfile.resolved') }}
+        restore-keys: |
+          ${{ runner.os }}-carthage-
+    - name: Download dependencies
+      run: ./carthage.sh update --platform macOS  --cache-builds
+    - name: Build
+      run: bash .travis/build.sh
+    - name: Prepare Delta
+      run: bash .travis/prepare_delta.sh
+    - name: Sparkle
+      env: 
+        SPARKLE_ED25519_KEY: ${{ secrets.SPARKLE_ED25519_KEY }}
+      run: bash .travis/sparkle_keys.sh
+    - name: Show appcast.xml
+      run: cat appcast.xml
+    - name: Create Release
+      if: startsWith(github.ref, 'refs/tags')
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+    - name: Upload Release Assets
+      uses: alexellis/upload-assets@0.2.3
+      if: startsWith(github.ref, 'refs/tags')
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        asset_paths: '["Clipy.app.zip", "appcast.xml", ".tmp/*.delta"]'

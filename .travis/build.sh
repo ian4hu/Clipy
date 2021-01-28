@@ -1,6 +1,9 @@
-xcodebuild -resolvePackageDependencies -workspace Clipy.xcworkspace -scheme Clipy -configuration Release -clonedSourcePackagesDirPath SourcePackages
+#!/usr/bin/env bash
+set -euo pipefail
 
-set -o pipefail && xcodebuild -workspace Clipy.xcworkspace -scheme Clipy -configuration Release -clonedSourcePackagesDirPath SourcePackages -destination 'generic/platform=macOS' -archivePath Clipy.xcarchive CODE_SIGN_IDENTITY='' DEVELOPMENT_TEAM='' clean archive | xcpretty
+CLIPY_SCHEME=${CLIPY_SCHEME:-Clipy}
+
+set -o pipefail && xcodebuild -workspace Clipy.xcworkspace -scheme "$CLIPY_SCHEME" -configuration Release -clonedSourcePackagesDirPath SourcePackages -destination 'generic/platform=macOS' -archivePath Clipy.xcarchive CODE_SIGN_IDENTITY='' DEVELOPMENT_TEAM='' clean archive | xcpretty
 
 rm -rf Clipy.app* && cp -rf Clipy.xcarchive/Products/Applications/Clipy.app ./
 

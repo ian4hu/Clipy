@@ -9,29 +9,115 @@
 /* Begin PBXBuildFile section */
 		59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCE0FF3143CA68B3118207D /* Pods_Clipy.framework */; };
 		5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E241B35DFD000C06102 /* AppKit.framework */; };
-		5B096C3B25BB176E00604CDF /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B096C3A25BB176E00604CDF /* SwiftPackageProductDependency */; };
+		5B096C3B25BB176E00604CDF /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5B096C3A25BB176E00604CDF /* CryptoSwift */; };
 		5B5B564923015F2700F1BAAF /* PasteboardTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */; };
-		5B6634BC25B595B900AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BB25B595B900AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634BE25B595B900AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BD25B595B900AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634C325B596C500AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C225B596C500AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634C525B596C500AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C425B596C500AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634C725B596C500AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C625B596C500AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634C925B596C500AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C825B596C500AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634DC25B598F400AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634DB25B598F400AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634DF25B599BE00AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634DE25B599BE00AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634E225B59A1200AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E125B59A1200AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634E525B59AE000AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E425B59AE000AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634E825B59C0300AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E725B59C0300AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634EB25B59CBB00AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634EA25B59CBB00AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634EE25B5A16200AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634ED25B5A16200AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634F125B5B28400AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F025B5B28400AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634F425B5B34D00AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F325B5B34D00AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634F725B5B3FB00AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F625B5B3FB00AA3F19 /* SwiftPackageProductDependency */; };
-		5B6634FA25B5B49300AA3F19 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F925B5B49300AA3F19 /* SwiftPackageProductDependency */; };
-		5BAC35A325BAFC5A005075DE /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAC35A225BAFC5A005075DE /* SwiftPackageProductDependency */; };
-		5BAC35A625BAFC7B005075DE /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAC35A525BAFC7B005075DE /* SwiftPackageProductDependency */; };
+		5B6634BC25B595B900AA3F19 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BB25B595B900AA3F19 /* Realm */; };
+		5B6634BE25B595B900AA3F19 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634BD25B595B900AA3F19 /* RealmSwift */; };
+		5B6634C325B596C500AA3F19 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C225B596C500AA3F19 /* RxBlocking */; };
+		5B6634C525B596C500AA3F19 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C425B596C500AA3F19 /* RxCocoa */; };
+		5B6634C725B596C500AA3F19 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C625B596C500AA3F19 /* RxRelay */; };
+		5B6634C925B596C500AA3F19 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634C825B596C500AA3F19 /* RxSwift */; };
+		5B6634DC25B598F400AA3F19 /* RxRealm in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634DB25B598F400AA3F19 /* RxRealm */; };
+		5B6634DF25B599BE00AA3F19 /* RxOptional in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634DE25B599BE00AA3F19 /* RxOptional */; };
+		5B6634E225B59A1200AA3F19 /* RxSwiftExt in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E125B59A1200AA3F19 /* RxSwiftExt */; };
+		5B6634E525B59AE000AA3F19 /* LoginServiceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E425B59AE000AA3F19 /* LoginServiceKit */; };
+		5B6634E825B59C0300AA3F19 /* Magnet in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634E725B59C0300AA3F19 /* Magnet */; };
+		5B6634EB25B59CBB00AA3F19 /* Screeen in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634EA25B59CBB00AA3F19 /* Screeen */; };
+		5B6634EE25B5A16200AA3F19 /* KeyHolder in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634ED25B5A16200AA3F19 /* KeyHolder */; };
+		5B6634F125B5B28400AA3F19 /* RxScreeen in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F025B5B28400AA3F19 /* RxScreeen */; };
+		5B6634F425B5B34D00AA3F19 /* SwiftHEXColors in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F325B5B34D00AA3F19 /* SwiftHEXColors */; };
+		5B6634F725B5B3FB00AA3F19 /* PINCache in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F625B5B3FB00AA3F19 /* PINCache */; };
+		5B6634FA25B5B49300AA3F19 /* AEXML in Frameworks */ = {isa = PBXBuildFile; productRef = 5B6634F925B5B49300AA3F19 /* AEXML */; };
+		5B7444DE25BEC44200281616 /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444D425BEC44100281616 /* AEXML.framework */; };
+		5B7444E125BEC44200281616 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444D725BEC44100281616 /* PINCache.framework */; };
+		5B7444E225BEC44200281616 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444D825BEC44100281616 /* RxBlocking.framework */; };
+		5B7444E325BEC44200281616 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444D925BEC44200281616 /* CryptoSwift.framework */; };
+		5B7444E425BEC44200281616 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444DA25BEC44200281616 /* RealmSwift.framework */; };
+		5B7444E525BEC44200281616 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444DB25BEC44200281616 /* PINOperation.framework */; };
+		5B7444E625BEC44200281616 /* LoginServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444DC25BEC44200281616 /* LoginServiceKit.framework */; };
+		5B7444E725BEC44200281616 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444DD25BEC44200281616 /* Realm.framework */; };
+		5B7444EB25BEC49300281616 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444E825BEC49200281616 /* RxRelay.framework */; };
+		5B7444ED25BEC49300281616 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444EA25BEC49300281616 /* RxBlocking.framework */; };
+		5B7444F225BEC5A400281616 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444F025BEC5A400281616 /* RxSwift.framework */; };
+		5B7444F325BEC5A400281616 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444F125BEC5A400281616 /* RxCocoa.framework */; };
+		5B7444FB25BEC63D00281616 /* KeyHolder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444F625BEC63C00281616 /* KeyHolder.framework */; };
+		5B7444FC25BEC63D00281616 /* Sauce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444F725BEC63D00281616 /* Sauce.framework */; };
+		5B7444FD25BEC63D00281616 /* Screeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444F825BEC63D00281616 /* Screeen.framework */; };
+		5B7444FE25BEC63D00281616 /* Magnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444F925BEC63D00281616 /* Magnet.framework */; };
+		5B7444FF25BEC63D00281616 /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7444FA25BEC63D00281616 /* RxRealm.framework */; };
+		5B74450925BEC78F00281616 /* RxScreeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B74450725BEC78F00281616 /* RxScreeen.framework */; };
+		5B74450A25BEC78F00281616 /* SwiftHEXColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B74450825BEC78F00281616 /* SwiftHEXColors.framework */; };
+		5B74450E25BEE6B500281616 /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B74450D25BEE6B500281616 /* RxOptional.framework */; };
+		5B74451725BEE70600281616 /* RxScreeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B74451625BEE70600281616 /* RxScreeen.framework */; };
+		5BAC35A325BAFC5A005075DE /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAC35A225BAFC5A005075DE /* Quick */; };
+		5BAC35A625BAFC7B005075DE /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 5BAC35A525BAFC7B005075DE /* Nimble */; };
 		5BDDB3E92336277500F150C0 /* EventContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDB3E82336277500F150C0 /* EventContext.swift */; };
-		5BFD62A225B58EA8002ECEC7 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 5BFD62A125B58EA8002ECEC7 /* SwiftPackageProductDependency */; };
+		5BF35EC725BEC11D00301AB2 /* NSImage+NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0DCEE1DE3255E00309C49 /* NSImage+NSColor.swift */; };
+		5BF35EC825BEC11D00301AB2 /* MenuType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4A51DDCB443007F95C8 /* MenuType.swift */; };
+		5BF35EC925BEC11D00301AB2 /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4A81DDCB452007F95C8 /* Array+Remove.swift */; };
+		5BF35ECA25BEC11D00301AB2 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3778921F3B691A003B5BAB /* AppEnvironment.swift */; };
+		5BF35ECB25BEC11D00301AB2 /* PasteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0DCF01DE576F300309C49 /* PasteService.swift */; };
+		5BF35ECC25BEC11D00301AB2 /* CPYUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4D91DDCB49C007F95C8 /* CPYUtilities.swift */; };
+		5BF35ECD25BEC11D00301AB2 /* NSLock+Clipy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4AD1DDCB452007F95C8 /* NSLock+Clipy.swift */; };
+		5BF35ECE25BEC11D00301AB2 /* NSUserDefaults+ArchiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4AF1DDCB452007F95C8 /* NSUserDefaults+ArchiveData.swift */; };
+		5BF35ECF25BEC11D00301AB2 /* AccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4BCCB2163DC9100FF5D18 /* AccessibilityService.swift */; };
+		5BF35ED025BEC11D00301AB2 /* CPYClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4CD1DDCB479007F95C8 /* CPYClip.swift */; };
+		5BF35ED125BEC11D00301AB2 /* DataCleanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0DCE81DE15FD900309C49 /* DataCleanService.swift */; };
+		5BF35ED225BEC11D00301AB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4A11DDCB433007F95C8 /* Constants.swift */; };
+		5BF35ED325BEC11D00301AB2 /* CPYFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4D01DDCB479007F95C8 /* CPYFolder.swift */; };
+		5BF35ED425BEC11D00301AB2 /* Observable+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD12AF1F207DBC00DF1CEB /* Observable+Void.swift */; };
+		5BF35ED525BEC11D00301AB2 /* NSBundle+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4A91DDCB452007F95C8 /* NSBundle+Version.swift */; };
+		5BF35ED625BEC11D00301AB2 /* CPYTypePreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4F51DDCB4C0007F95C8 /* CPYTypePreferenceViewController.swift */; };
+		5BF35ED725BEC11D00301AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4A01DDCB433007F95C8 /* AppDelegate.swift */; };
+		5BF35ED825BEC11D00301AB2 /* CPYBetaPreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4F21DDCB4C0007F95C8 /* CPYBetaPreferenceViewController.swift */; };
+		5BF35ED925BEC11D00301AB2 /* Realm+NoCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4B11DDCB452007F95C8 /* Realm+NoCatch.swift */; };
+		5BF35EDA25BEC11D00301AB2 /* NSMenuItem+Initialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4AE1DDCB452007F95C8 /* NSMenuItem+Initialize.swift */; };
+		5BF35EDB25BEC11D00301AB2 /* ClipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0D5CE71DDCC61600AC9052 /* ClipService.swift */; };
+		5BF35EDC25BEC11D00301AB2 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4C31DDCB460007F95C8 /* MenuManager.swift */; };
+		5BF35EDD25BEC11D00301AB2 /* String+Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4B21DDCB452007F95C8 /* String+Substring.swift */; };
+		5BF35EDE25BEC11D00301AB2 /* ExcludeAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1189321E4CD58C00244F12 /* ExcludeAppService.swift */; };
+		5BF35EDF25BEC11D00301AB2 /* AvailableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA801F4721A99F0400ACBE31 /* AvailableType.swift */; };
+		5BF35EE025BEC11D00301AB2 /* CPYUpdatesPreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4F61DDCB4C0007F95C8 /* CPYUpdatesPreferenceViewController.swift */; };
+		5BF35EE125BEC11D00301AB2 /* CPYClipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4CE1DDCB479007F95C8 /* CPYClipData.swift */; };
+		5BF35EE225BEC11D00301AB2 /* NSImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4AC1DDCB452007F95C8 /* NSImage+Resize.swift */; };
+		5BF35EE325BEC11D00301AB2 /* CPYDraggedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4CF1DDCB479007F95C8 /* CPYDraggedData.swift */; };
+		5BF35EE425BEC11D00301AB2 /* CPYExcludeAppPreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4F31DDCB4C0007F95C8 /* CPYExcludeAppPreferenceViewController.swift */; };
+		5BF35EE525BEC11D00301AB2 /* CPYSnippetsEditorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4E21DDCB49C007F95C8 /* CPYSnippetsEditorCell.swift */; };
+		5BF35EE625BEC11D00301AB2 /* CPYShortcutsPreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4F41DDCB4C0007F95C8 /* CPYShortcutsPreferenceViewController.swift */; };
+		5BF35EE725BEC11D00301AB2 /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA431F011E6718CE00ACFF56 /* Collection+Safe.swift */; };
+		5BF35EE825BEC11D00301AB2 /* AssetsImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10897B20EC22E200A3FEFC /* AssetsImages.swift */; };
+		5BF35EE925BEC11D00301AB2 /* CPYAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4CC1DDCB479007F95C8 /* CPYAppInfo.swift */; };
+		5BF35EEA25BEC11D00301AB2 /* HotKeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE911B81DE045E2008A4BEC /* HotKeyService.swift */; };
+		5BF35EEB25BEC11D00301AB2 /* CPYSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4D11DDCB479007F95C8 /* CPYSnippet.swift */; };
+		5BF35EEC25BEC11D00301AB2 /* CPYSnippetsEditorWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB50D1DDCB4C0007F95C8 /* CPYSnippetsEditorWindowController.swift */; };
+		5BF35EED25BEC11D00301AB2 /* EventContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDDB3E82336277500F150C0 /* EventContext.swift */; };
+		5BF35EEE25BEC11D00301AB2 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10897C20EC22E200A3FEFC /* LocalizedStrings.swift */; };
+		5BF35EEF25BEC11D00301AB2 /* CPYPlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4E41DDCB49C007F95C8 /* CPYPlaceHolderTextView.swift */; };
+		5BF35EF025BEC11D00301AB2 /* Realm+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4B01DDCB452007F95C8 /* Realm+Migration.swift */; };
+		5BF35EF125BEC11D00301AB2 /* CPYPreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DB4ED1DDCB4C0007F95C8 /* CPYPreferencesWindowController.swift */; };
+		5BF35EF225BEC11D00301AB2 /* NSCoding+Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE911BA1DE054F1008A4BEC /* NSCoding+Archive.swift */; };
+		5BF35EF325BEC11D00301AB2 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3778941F3B6920003B5BAB /* Environment.swift */; };
+		5BF35EF925BEC11D00301AB2 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E241B35DFD000C06102 /* AppKit.framework */; };
+		5BF35EFB25BEC11D00301AB2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E2A1B35DFDF00C06102 /* WebKit.framework */; };
+		5BF35EFC25BEC11D00301AB2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E281B35DFDA00C06102 /* Cocoa.framework */; };
+		5BF35F0225BEC11D00301AB2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E261B35DFD300C06102 /* Carbon.framework */; };
+		5BF35F0625BEC11D00301AB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC43E221B35DFC800C06102 /* Foundation.framework */; };
+		5BF35F0B25BEC11D00301AB2 /* Pods_Clipy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCE0FF3143CA68B3118207D /* Pods_Clipy.framework */; };
+		5BF35F0F25BEC11D00301AB2 /* CPYPreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB4EE1DDCB4C0007F95C8 /* CPYPreferencesWindowController.xib */; };
+		5BF35F1025BEC11D00301AB2 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		5BF35F1125BEC11D00301AB2 /* CPYTypePreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB5011DDCB4C0007F95C8 /* CPYTypePreferenceViewController.xib */; };
+		5BF35F1225BEC11D00301AB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB48F1DDCA5D9007F95C8 /* Images.xcassets */; };
+		5BF35F1325BEC11D00301AB2 /* CPYShortcutsPreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB4FF1DDCB4C0007F95C8 /* CPYShortcutsPreferenceViewController.xib */; };
+		5BF35F1425BEC11D00301AB2 /* CPYUpdatesPreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB5031DDCB4C0007F95C8 /* CPYUpdatesPreferenceViewController.xib */; };
+		5BF35F1525BEC11D00301AB2 /* CPYMenuPreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB4FD1DDCB4C0007F95C8 /* CPYMenuPreferenceViewController.xib */; };
+		5BF35F1625BEC11D00301AB2 /* CPYGeneralPreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB4FB1DDCB4C0007F95C8 /* CPYGeneralPreferenceViewController.xib */; };
+		5BF35F1725BEC11D00301AB2 /* CPYExcludeAppPreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB4F91DDCB4C0007F95C8 /* CPYExcludeAppPreferenceViewController.xib */; };
+		5BF35F1825BEC11D00301AB2 /* CPYBetaPreferenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB4F71DDCB4C0007F95C8 /* CPYBetaPreferenceViewController.xib */; };
+		5BF35F1925BEC11D00301AB2 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		5BF35F1A25BEC11D00301AB2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB4961DDCB2CB007F95C8 /* Localizable.strings */; };
+		5BF35F1B25BEC11D00301AB2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB49E1DDCB417007F95C8 /* MainMenu.xib */; };
+		5BF35F1C25BEC11D00301AB2 /* CPYSnippetsEditorWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1DB50F1DDCB4C0007F95C8 /* CPYSnippetsEditorWindowController.xib */; };
+		5BFD62A225B58EA8002ECEC7 /* Sauce in Frameworks */ = {isa = PBXBuildFile; productRef = 5BFD62A125B58EA8002ECEC7 /* Sauce */; };
 		BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FE688BD47571F5C6290E /* Pods_ClipyTests.framework */; };
 		CAFD12B01F207DBC00DF1CEB /* Observable+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD12AF1F207DBC00DF1CEB /* Observable+Void.swift */; };
 		FA08EDF81D1FED7D000D1D13 /* HotKeyServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08EDF71D1FED7D000D1D13 /* HotKeyServiceSpec.swift */; };
@@ -86,8 +172,8 @@
 		FA6167921D3ABEB10049FA14 /* FolderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167911D3ABEB10049FA14 /* FolderSpec.swift */; };
 		FA6167941D3ACCB90049FA14 /* DraggedDataSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167931D3ACCB90049FA14 /* DraggedDataSpec.swift */; };
 		FA6167961D3ACDD80049FA14 /* SnippetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6167951D3ACDD80049FA14 /* SnippetSpec.swift */; };
-		FA6DD5141C7DEDB600317E73 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
-		FA6DD5151C7DEDB600317E73 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		FA6DD5141C7DEDB600317E73 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		FA6DD5151C7DEDB600317E73 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		FA801F4821A99F0400ACBE31 /* AvailableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA801F4721A99F0400ACBE31 /* AvailableType.swift */; };
 		FAA4BCCC2163DC9100FF5D18 /* AccessibilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4BCCB2163DC9100FF5D18 /* AccessibilityService.swift */; };
 		FAC0DCE91DE15FD900309C49 /* DataCleanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC0DCE81DE15FD900309C49 /* DataCleanService.swift */; };
@@ -119,6 +205,16 @@
 			dstSubfolderSpec = 10;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF35F1D25BEC11D00301AB2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FAC43E1D1B35DF4A00C06102 /* Embed Frameworks */ = {
@@ -171,6 +267,29 @@
 		54ADE1032008F64100239852 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5B257DE32309115D00E340DE /* Clipy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clipy-Bridging-Header.h"; sourceTree = "<group>"; };
 		5B5B564823015F2700F1BAAF /* PasteboardTypeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardTypeSpec.swift; sourceTree = "<group>"; };
+		5B7444D425BEC44100281616 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/Mac/AEXML.framework; sourceTree = "<group>"; };
+		5B7444D525BEC44100281616 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		5B7444D725BEC44100281616 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/Mac/PINCache.framework; sourceTree = "<group>"; };
+		5B7444D825BEC44100281616 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/Mac/RxBlocking.framework; sourceTree = "<group>"; };
+		5B7444D925BEC44200281616 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/Mac/CryptoSwift.framework; sourceTree = "<group>"; };
+		5B7444DA25BEC44200281616 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/Mac/RealmSwift.framework; sourceTree = "<group>"; };
+		5B7444DB25BEC44200281616 /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = Carthage/Build/Mac/PINOperation.framework; sourceTree = "<group>"; };
+		5B7444DC25BEC44200281616 /* LoginServiceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginServiceKit.framework; path = Carthage/Build/Mac/LoginServiceKit.framework; sourceTree = "<group>"; };
+		5B7444DD25BEC44200281616 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/Mac/Realm.framework; sourceTree = "<group>"; };
+		5B7444E825BEC49200281616 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/Mac/RxRelay.framework; sourceTree = "<group>"; };
+		5B7444E925BEC49200281616 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		5B7444EA25BEC49300281616 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/Mac/RxBlocking.framework; sourceTree = "<group>"; };
+		5B7444F025BEC5A400281616 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		5B7444F125BEC5A400281616 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
+		5B7444F625BEC63C00281616 /* KeyHolder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeyHolder.framework; path = Carthage/Build/Mac/KeyHolder.framework; sourceTree = "<group>"; };
+		5B7444F725BEC63D00281616 /* Sauce.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sauce.framework; path = Carthage/Build/Mac/Sauce.framework; sourceTree = "<group>"; };
+		5B7444F825BEC63D00281616 /* Screeen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Screeen.framework; path = Carthage/Build/Mac/Screeen.framework; sourceTree = "<group>"; };
+		5B7444F925BEC63D00281616 /* Magnet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Magnet.framework; path = Carthage/Build/Mac/Magnet.framework; sourceTree = "<group>"; };
+		5B7444FA25BEC63D00281616 /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRealm.framework; path = Carthage/Build/Mac/RxRealm.framework; sourceTree = "<group>"; };
+		5B74450725BEC78F00281616 /* RxScreeen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxScreeen.framework; path = Carthage/Build/Mac/RxScreeen.framework; sourceTree = "<group>"; };
+		5B74450825BEC78F00281616 /* SwiftHEXColors.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHEXColors.framework; path = Carthage/Build/Mac/SwiftHEXColors.framework; sourceTree = "<group>"; };
+		5B74450D25BEE6B500281616 /* RxOptional.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxOptional.framework; path = Carthage/Build/Mac/RxOptional.framework; sourceTree = "<group>"; };
+		5B74451625BEE70600281616 /* RxScreeen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxScreeen.framework; path = Carthage/Build/Mac/RxScreeen.framework; sourceTree = "<group>"; };
 		5BA49A862310180E0002EDBA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/CPYBetaPreferenceViewController.strings; sourceTree = "<group>"; };
 		5BA49A872310181B0002EDBA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/CPYExcludeAppPreferenceViewController.strings; sourceTree = "<group>"; };
 		5BA49A88231018250002EDBA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/CPYGeneralPreferenceViewController.strings; sourceTree = "<group>"; };
@@ -182,6 +301,7 @@
 		5BA49A8E231018590002EDBA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5BA49A8F231018D30002EDBA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/CPYSnippetsEditorWindowController.strings; sourceTree = "<group>"; };
 		5BDDB3E82336277500F150C0 /* EventContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventContext.swift; sourceTree = "<group>"; };
+		5BF35F2525BEC11D00301AB2 /* Clipy-Carthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clipy-Carthage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846004961FD5511800BA733E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CPYPreferencesWindowController.strings; sourceTree = "<group>"; };
 		846004971FD5511900BA733E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CPYBetaPreferenceViewController.strings; sourceTree = "<group>"; };
 		846004981FD5511900BA733E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CPYExcludeAppPreferenceViewController.strings; sourceTree = "<group>"; };
@@ -274,35 +394,69 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5BF35EF425BEC11D00301AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7444FB25BEC63D00281616 /* KeyHolder.framework in Frameworks */,
+				5B7444F325BEC5A400281616 /* RxCocoa.framework in Frameworks */,
+				5B7444E525BEC44200281616 /* PINOperation.framework in Frameworks */,
+				5B7444E425BEC44200281616 /* RealmSwift.framework in Frameworks */,
+				5BF35EF925BEC11D00301AB2 /* AppKit.framework in Frameworks */,
+				5B7444E325BEC44200281616 /* CryptoSwift.framework in Frameworks */,
+				5BF35EFB25BEC11D00301AB2 /* WebKit.framework in Frameworks */,
+				5B7444FD25BEC63D00281616 /* Screeen.framework in Frameworks */,
+				5BF35EFC25BEC11D00301AB2 /* Cocoa.framework in Frameworks */,
+				5B7444E125BEC44200281616 /* PINCache.framework in Frameworks */,
+				5B74450A25BEC78F00281616 /* SwiftHEXColors.framework in Frameworks */,
+				5B7444F225BEC5A400281616 /* RxSwift.framework in Frameworks */,
+				5B7444DE25BEC44200281616 /* AEXML.framework in Frameworks */,
+				5B74451725BEE70600281616 /* RxScreeen.framework in Frameworks */,
+				5B7444E225BEC44200281616 /* RxBlocking.framework in Frameworks */,
+				5B7444E625BEC44200281616 /* LoginServiceKit.framework in Frameworks */,
+				5B7444E725BEC44200281616 /* Realm.framework in Frameworks */,
+				5B7444ED25BEC49300281616 /* RxBlocking.framework in Frameworks */,
+				5B7444FE25BEC63D00281616 /* Magnet.framework in Frameworks */,
+				5B74450E25BEE6B500281616 /* RxOptional.framework in Frameworks */,
+				5B7444EB25BEC49300281616 /* RxRelay.framework in Frameworks */,
+				5B7444FC25BEC63D00281616 /* Sauce.framework in Frameworks */,
+				5BF35F0225BEC11D00301AB2 /* Carbon.framework in Frameworks */,
+				5B7444FF25BEC63D00281616 /* RxRealm.framework in Frameworks */,
+				5BF35F0625BEC11D00301AB2 /* Foundation.framework in Frameworks */,
+				5B74450925BEC78F00281616 /* RxScreeen.framework in Frameworks */,
+				5BF35F0B25BEC11D00301AB2 /* Pods_Clipy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAC43DC31B35D8B100C06102 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B6634F425B5B34D00AA3F19 /* BuildFile in Frameworks */,
-				5B6634EB25B59CBB00AA3F19 /* BuildFile in Frameworks */,
-				5B6634C725B596C500AA3F19 /* BuildFile in Frameworks */,
-				5B6634C325B596C500AA3F19 /* BuildFile in Frameworks */,
+				5B6634F425B5B34D00AA3F19 /* SwiftHEXColors in Frameworks */,
+				5B6634EB25B59CBB00AA3F19 /* Screeen in Frameworks */,
+				5B6634C725B596C500AA3F19 /* RxRelay in Frameworks */,
+				5B6634C325B596C500AA3F19 /* RxBlocking in Frameworks */,
 				5B085A0323696B0200F3450D /* AppKit.framework in Frameworks */,
-				5B6634E525B59AE000AA3F19 /* BuildFile in Frameworks */,
+				5B6634E525B59AE000AA3F19 /* LoginServiceKit in Frameworks */,
 				FAC43E2B1B35DFDF00C06102 /* WebKit.framework in Frameworks */,
 				FAC43E291B35DFDA00C06102 /* Cocoa.framework in Frameworks */,
-				5B096C3B25BB176E00604CDF /* BuildFile in Frameworks */,
-				5B6634E225B59A1200AA3F19 /* BuildFile in Frameworks */,
-				5BFD62A225B58EA8002ECEC7 /* BuildFile in Frameworks */,
-				5B6634C525B596C500AA3F19 /* BuildFile in Frameworks */,
-				5B6634C925B596C500AA3F19 /* BuildFile in Frameworks */,
+				5B096C3B25BB176E00604CDF /* CryptoSwift in Frameworks */,
+				5B6634E225B59A1200AA3F19 /* RxSwiftExt in Frameworks */,
+				5BFD62A225B58EA8002ECEC7 /* Sauce in Frameworks */,
+				5B6634C525B596C500AA3F19 /* RxCocoa in Frameworks */,
+				5B6634C925B596C500AA3F19 /* RxSwift in Frameworks */,
 				FAC43E271B35DFD300C06102 /* Carbon.framework in Frameworks */,
-				5B6634F125B5B28400AA3F19 /* BuildFile in Frameworks */,
-				5B6634DF25B599BE00AA3F19 /* BuildFile in Frameworks */,
-				5B6634BE25B595B900AA3F19 /* BuildFile in Frameworks */,
+				5B6634F125B5B28400AA3F19 /* RxScreeen in Frameworks */,
+				5B6634DF25B599BE00AA3F19 /* RxOptional in Frameworks */,
+				5B6634BE25B595B900AA3F19 /* RealmSwift in Frameworks */,
 				FAC43E231B35DFC800C06102 /* Foundation.framework in Frameworks */,
-				5B6634EE25B5A16200AA3F19 /* BuildFile in Frameworks */,
-				5B6634BC25B595B900AA3F19 /* BuildFile in Frameworks */,
-				5B6634F725B5B3FB00AA3F19 /* BuildFile in Frameworks */,
-				5B6634FA25B5B49300AA3F19 /* BuildFile in Frameworks */,
+				5B6634EE25B5A16200AA3F19 /* KeyHolder in Frameworks */,
+				5B6634BC25B595B900AA3F19 /* Realm in Frameworks */,
+				5B6634F725B5B3FB00AA3F19 /* PINCache in Frameworks */,
+				5B6634FA25B5B49300AA3F19 /* AEXML in Frameworks */,
 				59A230099E58D7D4829C9FB7 /* Pods_Clipy.framework in Frameworks */,
-				5B6634DC25B598F400AA3F19 /* BuildFile in Frameworks */,
-				5B6634E825B59C0300AA3F19 /* BuildFile in Frameworks */,
+				5B6634DC25B598F400AA3F19 /* RxRealm in Frameworks */,
+				5B6634E825B59C0300AA3F19 /* Magnet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +464,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BAC35A625BAFC7B005075DE /* BuildFile in Frameworks */,
-				5BAC35A325BAFC5A005075DE /* BuildFile in Frameworks */,
+				5BAC35A625BAFC7B005075DE /* Nimble in Frameworks */,
+				5BAC35A325BAFC5A005075DE /* Quick in Frameworks */,
 				BAA0B7B6AA19CD007EF66D7A /* Pods_ClipyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,13 +476,36 @@
 		2CB0F71AAC48A392535FD3B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FAC43E2A1B35DFDF00C06102 /* WebKit.framework */,
-				FAC43E281B35DFDA00C06102 /* Cocoa.framework */,
-				FAC43E261B35DFD300C06102 /* Carbon.framework */,
+				5B74451625BEE70600281616 /* RxScreeen.framework */,
+				5B74450D25BEE6B500281616 /* RxOptional.framework */,
+				5B7444D425BEC44100281616 /* AEXML.framework */,
 				FAC43E241B35DFD000C06102 /* AppKit.framework */,
+				FAC43E261B35DFD300C06102 /* Carbon.framework */,
+				FAC43E281B35DFDA00C06102 /* Cocoa.framework */,
+				5B7444D925BEC44200281616 /* CryptoSwift.framework */,
 				FAC43E221B35DFC800C06102 /* Foundation.framework */,
+				5B7444F625BEC63C00281616 /* KeyHolder.framework */,
+				5B7444DC25BEC44200281616 /* LoginServiceKit.framework */,
+				5B7444F925BEC63D00281616 /* Magnet.framework */,
+				5B7444E925BEC49200281616 /* Nimble.framework */,
+				5B7444D725BEC44100281616 /* PINCache.framework */,
+				5B7444DB25BEC44200281616 /* PINOperation.framework */,
 				1DCE0FF3143CA68B3118207D /* Pods_Clipy.framework */,
 				44B0FE688BD47571F5C6290E /* Pods_ClipyTests.framework */,
+				5B7444D525BEC44100281616 /* Quick.framework */,
+				5B7444DD25BEC44200281616 /* Realm.framework */,
+				5B7444DA25BEC44200281616 /* RealmSwift.framework */,
+				5B7444EA25BEC49300281616 /* RxBlocking.framework */,
+				5B7444F125BEC5A400281616 /* RxCocoa.framework */,
+				5B7444FA25BEC63D00281616 /* RxRealm.framework */,
+				5B7444E825BEC49200281616 /* RxRelay.framework */,
+				5B74450725BEC78F00281616 /* RxScreeen.framework */,
+				5B7444F025BEC5A400281616 /* RxSwift.framework */,
+				5B7444F725BEC63D00281616 /* Sauce.framework */,
+				5B7444F825BEC63D00281616 /* Screeen.framework */,
+				5B74450825BEC78F00281616 /* SwiftHEXColors.framework */,
+				FAC43E2A1B35DFDF00C06102 /* WebKit.framework */,
+				5B7444D825BEC44100281616 /* RxBlocking.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -558,6 +735,7 @@
 			children = (
 				FAC43DC61B35D8B100C06102 /* Clipy.app */,
 				FAC43DD81B35D8B100C06102 /* ClipyTests.xctest */,
+				5BF35F2525BEC11D00301AB2 /* Clipy-Carthage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -598,6 +776,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5BF35EA225BEC11D00301AB2 /* Clipy-Carthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF35F2225BEC11D00301AB2 /* Build configuration list for PBXNativeTarget "Clipy-Carthage" */;
+			buildPhases = (
+				5BF35EC525BEC11D00301AB2 /* [CP] Check Pods Manifest.lock */,
+				5BF35EC625BEC11D00301AB2 /* Sources */,
+				5BF35EF425BEC11D00301AB2 /* Frameworks */,
+				5BF35F0E25BEC11D00301AB2 /* Resources */,
+				5BF35F1D25BEC11D00301AB2 /* Embed Frameworks */,
+				5BF35F1E25BEC11D00301AB2 /* SwiftLint */,
+				5BF35F1F25BEC11D00301AB2 /* BartyCrouch */,
+				5BF35F2025BEC11D00301AB2 /* SwiftGen */,
+				5BF35F2125BEC11D00301AB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clipy-Carthage";
+			packageProductDependencies = (
+			);
+			productName = Clipy;
+			productReference = 5BF35F2525BEC11D00301AB2 /* Clipy-Carthage.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FAC43DC51B35D8B100C06102 /* Clipy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAC43DE21B35D8B100C06102 /* Build configuration list for PBXNativeTarget "Clipy" */;
@@ -618,25 +821,25 @@
 			);
 			name = Clipy;
 			packageProductDependencies = (
-				5BFD62A125B58EA8002ECEC7 /* SwiftPackageProductDependency */,
-				5B6634BB25B595B900AA3F19 /* SwiftPackageProductDependency */,
-				5B6634BD25B595B900AA3F19 /* SwiftPackageProductDependency */,
-				5B6634C225B596C500AA3F19 /* SwiftPackageProductDependency */,
-				5B6634C425B596C500AA3F19 /* SwiftPackageProductDependency */,
-				5B6634C625B596C500AA3F19 /* SwiftPackageProductDependency */,
-				5B6634C825B596C500AA3F19 /* SwiftPackageProductDependency */,
-				5B6634DB25B598F400AA3F19 /* SwiftPackageProductDependency */,
-				5B6634DE25B599BE00AA3F19 /* SwiftPackageProductDependency */,
-				5B6634E125B59A1200AA3F19 /* SwiftPackageProductDependency */,
-				5B6634E425B59AE000AA3F19 /* SwiftPackageProductDependency */,
-				5B6634E725B59C0300AA3F19 /* SwiftPackageProductDependency */,
-				5B6634EA25B59CBB00AA3F19 /* SwiftPackageProductDependency */,
-				5B6634ED25B5A16200AA3F19 /* SwiftPackageProductDependency */,
-				5B6634F025B5B28400AA3F19 /* SwiftPackageProductDependency */,
-				5B6634F325B5B34D00AA3F19 /* SwiftPackageProductDependency */,
-				5B6634F625B5B3FB00AA3F19 /* SwiftPackageProductDependency */,
-				5B6634F925B5B49300AA3F19 /* SwiftPackageProductDependency */,
-				5B096C3A25BB176E00604CDF /* SwiftPackageProductDependency */,
+				5BFD62A125B58EA8002ECEC7 /* Sauce */,
+				5B6634BB25B595B900AA3F19 /* Realm */,
+				5B6634BD25B595B900AA3F19 /* RealmSwift */,
+				5B6634C225B596C500AA3F19 /* RxBlocking */,
+				5B6634C425B596C500AA3F19 /* RxCocoa */,
+				5B6634C625B596C500AA3F19 /* RxRelay */,
+				5B6634C825B596C500AA3F19 /* RxSwift */,
+				5B6634DB25B598F400AA3F19 /* RxRealm */,
+				5B6634DE25B599BE00AA3F19 /* RxOptional */,
+				5B6634E125B59A1200AA3F19 /* RxSwiftExt */,
+				5B6634E425B59AE000AA3F19 /* LoginServiceKit */,
+				5B6634E725B59C0300AA3F19 /* Magnet */,
+				5B6634EA25B59CBB00AA3F19 /* Screeen */,
+				5B6634ED25B5A16200AA3F19 /* KeyHolder */,
+				5B6634F025B5B28400AA3F19 /* RxScreeen */,
+				5B6634F325B5B34D00AA3F19 /* SwiftHEXColors */,
+				5B6634F625B5B3FB00AA3F19 /* PINCache */,
+				5B6634F925B5B49300AA3F19 /* AEXML */,
+				5B096C3A25BB176E00604CDF /* CryptoSwift */,
 			);
 			productName = Clipy;
 			productReference = FAC43DC61B35D8B100C06102 /* Clipy.app */;
@@ -659,8 +862,8 @@
 			);
 			name = ClipyTests;
 			packageProductDependencies = (
-				5BAC35A225BAFC5A005075DE /* SwiftPackageProductDependency */,
-				5BAC35A525BAFC7B005075DE /* SwiftPackageProductDependency */,
+				5BAC35A225BAFC5A005075DE /* Quick */,
+				5BAC35A525BAFC7B005075DE /* Nimble */,
 			);
 			productName = ClipyTests;
 			productReference = FAC43DD81B35D8B100C06102 /* ClipyTests.xctest */;
@@ -705,23 +908,23 @@
 			);
 			mainGroup = FAC43DBD1B35D8B100C06102;
 			packageReferences = (
-				5BFD62A025B58EA8002ECEC7 /* RemoteSwiftPackageReference */,
-				5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634DA25B598F400AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634DD25B599BE00AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634E025B59A1200AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634E325B59AE000AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634E625B59C0300AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634E925B59CBB00AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634EC25B5A16200AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634EF25B5B28400AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634F225B5B34D00AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634F525B5B3FB00AA3F19 /* RemoteSwiftPackageReference */,
-				5B6634F825B5B49300AA3F19 /* RemoteSwiftPackageReference */,
-				5BAC35A125BAFC5A005075DE /* RemoteSwiftPackageReference */,
-				5BAC35A425BAFC7B005075DE /* RemoteSwiftPackageReference */,
-				5B096C3925BB176E00604CDF /* RemoteSwiftPackageReference */,
+				5BFD62A025B58EA8002ECEC7 /* XCRemoteSwiftPackageReference "Sauce" */,
+				5B6634B225B5953B00AA3F19 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				5B6634DA25B598F400AA3F19 /* XCRemoteSwiftPackageReference "RxRealm" */,
+				5B6634DD25B599BE00AA3F19 /* XCRemoteSwiftPackageReference "RxOptional" */,
+				5B6634E025B59A1200AA3F19 /* XCRemoteSwiftPackageReference "RxSwiftExt" */,
+				5B6634E325B59AE000AA3F19 /* XCRemoteSwiftPackageReference "LoginServiceKit" */,
+				5B6634E625B59C0300AA3F19 /* XCRemoteSwiftPackageReference "Magnet" */,
+				5B6634E925B59CBB00AA3F19 /* XCRemoteSwiftPackageReference "Screeen" */,
+				5B6634EC25B5A16200AA3F19 /* XCRemoteSwiftPackageReference "KeyHolder" */,
+				5B6634EF25B5B28400AA3F19 /* XCRemoteSwiftPackageReference "RxScreeen" */,
+				5B6634F225B5B34D00AA3F19 /* XCRemoteSwiftPackageReference "SwiftHEXColors" */,
+				5B6634F525B5B3FB00AA3F19 /* XCRemoteSwiftPackageReference "PINCache" */,
+				5B6634F825B5B49300AA3F19 /* XCRemoteSwiftPackageReference "AEXML" */,
+				5BAC35A125BAFC5A005075DE /* XCRemoteSwiftPackageReference "Quick" */,
+				5BAC35A425BAFC7B005075DE /* XCRemoteSwiftPackageReference "Nimble" */,
+				5B096C3925BB176E00604CDF /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 			);
 			productRefGroup = FAC43DC71B35D8B100C06102 /* Products */;
 			projectDirPath = "";
@@ -729,17 +932,39 @@
 			targets = (
 				FAC43DC51B35D8B100C06102 /* Clipy */,
 				FAC43DD71B35D8B100C06102 /* ClipyTests */,
+				5BF35EA225BEC11D00301AB2 /* Clipy-Carthage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5BF35F0E25BEC11D00301AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF35F0F25BEC11D00301AB2 /* CPYPreferencesWindowController.xib in Resources */,
+				5BF35F1025BEC11D00301AB2 /* (null) in Resources */,
+				5BF35F1125BEC11D00301AB2 /* CPYTypePreferenceViewController.xib in Resources */,
+				5BF35F1225BEC11D00301AB2 /* Images.xcassets in Resources */,
+				5BF35F1325BEC11D00301AB2 /* CPYShortcutsPreferenceViewController.xib in Resources */,
+				5BF35F1425BEC11D00301AB2 /* CPYUpdatesPreferenceViewController.xib in Resources */,
+				5BF35F1525BEC11D00301AB2 /* CPYMenuPreferenceViewController.xib in Resources */,
+				5BF35F1625BEC11D00301AB2 /* CPYGeneralPreferenceViewController.xib in Resources */,
+				5BF35F1725BEC11D00301AB2 /* CPYExcludeAppPreferenceViewController.xib in Resources */,
+				5BF35F1825BEC11D00301AB2 /* CPYBetaPreferenceViewController.xib in Resources */,
+				5BF35F1925BEC11D00301AB2 /* (null) in Resources */,
+				5BF35F1A25BEC11D00301AB2 /* Localizable.strings in Resources */,
+				5BF35F1B25BEC11D00301AB2 /* MainMenu.xib in Resources */,
+				5BF35F1C25BEC11D00301AB2 /* CPYSnippetsEditorWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAC43DC41B35D8B100C06102 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA1DB5131DDCB4C0007F95C8 /* CPYPreferencesWindowController.xib in Resources */,
-				FA6DD5141C7DEDB600317E73 /* BuildFile in Resources */,
+				FA6DD5141C7DEDB600317E73 /* (null) in Resources */,
 				FA1DB51E1DDCB4C0007F95C8 /* CPYTypePreferenceViewController.xib in Resources */,
 				FA1DB4901DDCA5D9007F95C8 /* Images.xcassets in Resources */,
 				FA1DB51D1DDCB4C0007F95C8 /* CPYShortcutsPreferenceViewController.xib in Resources */,
@@ -748,7 +973,7 @@
 				FA1DB51B1DDCB4C0007F95C8 /* CPYGeneralPreferenceViewController.xib in Resources */,
 				FA1DB51A1DDCB4C0007F95C8 /* CPYExcludeAppPreferenceViewController.xib in Resources */,
 				FA1DB5191DDCB4C0007F95C8 /* CPYBetaPreferenceViewController.xib in Resources */,
-				FA6DD5151C7DEDB600317E73 /* BuildFile in Resources */,
+				FA6DD5151C7DEDB600317E73 /* (null) in Resources */,
 				FA1DB4981DDCB2CB007F95C8 /* Localizable.strings in Resources */,
 				FA1DB49F1DDCB417007F95C8 /* MainMenu.xib in Resources */,
 				FA1DB5221DDCB4C0007F95C8 /* CPYSnippetsEditorWindowController.xib in Resources */,
@@ -802,6 +1027,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BF35EC525BEC11D00301AB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clipy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BF35F1E25BEC11D00301AB2 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		5BF35F1F25BEC11D00301AB2 /* BartyCrouch */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = BartyCrouch;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/BartyCrouch/bartycrouch\" update\n";
+		};
+		5BF35F2025BEC11D00301AB2 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\n";
+		};
+		5BF35F2125BEC11D00301AB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clipy/Pods-Clipy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7EE848130506B5E6BF0E544E /* [CP] Check Pods Manifest.lock */ = {
@@ -871,6 +1177,58 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5BF35EC625BEC11D00301AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF35EC725BEC11D00301AB2 /* NSImage+NSColor.swift in Sources */,
+				5BF35EC825BEC11D00301AB2 /* MenuType.swift in Sources */,
+				5BF35EC925BEC11D00301AB2 /* Array+Remove.swift in Sources */,
+				5BF35ECA25BEC11D00301AB2 /* AppEnvironment.swift in Sources */,
+				5BF35ECB25BEC11D00301AB2 /* PasteService.swift in Sources */,
+				5BF35ECC25BEC11D00301AB2 /* CPYUtilities.swift in Sources */,
+				5BF35ECD25BEC11D00301AB2 /* NSLock+Clipy.swift in Sources */,
+				5BF35ECE25BEC11D00301AB2 /* NSUserDefaults+ArchiveData.swift in Sources */,
+				5BF35ECF25BEC11D00301AB2 /* AccessibilityService.swift in Sources */,
+				5BF35ED025BEC11D00301AB2 /* CPYClip.swift in Sources */,
+				5BF35ED125BEC11D00301AB2 /* DataCleanService.swift in Sources */,
+				5BF35ED225BEC11D00301AB2 /* Constants.swift in Sources */,
+				5BF35ED325BEC11D00301AB2 /* CPYFolder.swift in Sources */,
+				5BF35ED425BEC11D00301AB2 /* Observable+Void.swift in Sources */,
+				5BF35ED525BEC11D00301AB2 /* NSBundle+Version.swift in Sources */,
+				5BF35ED625BEC11D00301AB2 /* CPYTypePreferenceViewController.swift in Sources */,
+				5BF35ED725BEC11D00301AB2 /* AppDelegate.swift in Sources */,
+				5BF35ED825BEC11D00301AB2 /* CPYBetaPreferenceViewController.swift in Sources */,
+				5BF35ED925BEC11D00301AB2 /* Realm+NoCatch.swift in Sources */,
+				5BF35EDA25BEC11D00301AB2 /* NSMenuItem+Initialize.swift in Sources */,
+				5BF35EDB25BEC11D00301AB2 /* ClipService.swift in Sources */,
+				5BF35EDC25BEC11D00301AB2 /* MenuManager.swift in Sources */,
+				5BF35EDD25BEC11D00301AB2 /* String+Substring.swift in Sources */,
+				5BF35EDE25BEC11D00301AB2 /* ExcludeAppService.swift in Sources */,
+				5BF35EDF25BEC11D00301AB2 /* AvailableType.swift in Sources */,
+				5BF35EE025BEC11D00301AB2 /* CPYUpdatesPreferenceViewController.swift in Sources */,
+				5BF35EE125BEC11D00301AB2 /* CPYClipData.swift in Sources */,
+				5BF35EE225BEC11D00301AB2 /* NSImage+Resize.swift in Sources */,
+				5BF35EE325BEC11D00301AB2 /* CPYDraggedData.swift in Sources */,
+				5BF35EE425BEC11D00301AB2 /* CPYExcludeAppPreferenceViewController.swift in Sources */,
+				5BF35EE525BEC11D00301AB2 /* CPYSnippetsEditorCell.swift in Sources */,
+				5BF35EE625BEC11D00301AB2 /* CPYShortcutsPreferenceViewController.swift in Sources */,
+				5BF35EE725BEC11D00301AB2 /* Collection+Safe.swift in Sources */,
+				5BF35EE825BEC11D00301AB2 /* AssetsImages.swift in Sources */,
+				5BF35EE925BEC11D00301AB2 /* CPYAppInfo.swift in Sources */,
+				5BF35EEA25BEC11D00301AB2 /* HotKeyService.swift in Sources */,
+				5BF35EEB25BEC11D00301AB2 /* CPYSnippet.swift in Sources */,
+				5BF35EEC25BEC11D00301AB2 /* CPYSnippetsEditorWindowController.swift in Sources */,
+				5BF35EED25BEC11D00301AB2 /* EventContext.swift in Sources */,
+				5BF35EEE25BEC11D00301AB2 /* LocalizedStrings.swift in Sources */,
+				5BF35EEF25BEC11D00301AB2 /* CPYPlaceHolderTextView.swift in Sources */,
+				5BF35EF025BEC11D00301AB2 /* Realm+Migration.swift in Sources */,
+				5BF35EF125BEC11D00301AB2 /* CPYPreferencesWindowController.swift in Sources */,
+				5BF35EF225BEC11D00301AB2 /* NSCoding+Archive.swift in Sources */,
+				5BF35EF325BEC11D00301AB2 /* Environment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAC43DC21B35D8B100C06102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1088,6 +1446,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5BF35F2325BEC11D00301AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20C4BB3CB50F4CE061C611A /* Pods-Clipy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Clipy/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clipy-app.Clipy.debug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Clipy/Sources/Clipy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5BF35F2425BEC11D00301AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F9773DECF936A5F5111822 /* Pods-Clipy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Clipy/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clipy-app.Clipy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Clipy/Sources/Clipy-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		FAC43DE01B35D8B100C06102 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1312,6 +1728,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5BF35F2225BEC11D00301AB2 /* Build configuration list for PBXNativeTarget "Clipy-Carthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF35F2325BEC11D00301AB2 /* Debug */,
+				5BF35F2425BEC11D00301AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FAC43DC11B35D8B100C06102 /* Build configuration list for PBXProject "Clipy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1342,7 +1767,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5B096C3925BB176E00604CDF /* RemoteSwiftPackageReference */ = {
+		5B096C3925BB176E00604CDF /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
 			requirement = {
@@ -1350,7 +1775,7 @@
 				minimumVersion = 1.1.3;
 			};
 		};
-		5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634B225B5953B00AA3F19 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-cocoa";
 			requirement = {
@@ -1358,7 +1783,7 @@
 				minimumVersion = 3.20.0;
 			};
 		};
-		5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
@@ -1366,7 +1791,7 @@
 				minimumVersion = 5.0.1;
 			};
 		};
-		5B6634DA25B598F400AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634DA25B598F400AA3F19 /* XCRemoteSwiftPackageReference "RxRealm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxRealm";
 			requirement = {
@@ -1374,7 +1799,7 @@
 				minimumVersion = 1.0.1;
 			};
 		};
-		5B6634DD25B599BE00AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634DD25B599BE00AA3F19 /* XCRemoteSwiftPackageReference "RxOptional" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxOptional";
 			requirement = {
@@ -1382,7 +1807,7 @@
 				minimumVersion = 4.1.0;
 			};
 		};
-		5B6634E025B59A1200AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634E025B59A1200AA3F19 /* XCRemoteSwiftPackageReference "RxSwiftExt" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/RxSwiftCommunity/RxSwiftExt";
 			requirement = {
@@ -1390,7 +1815,7 @@
 				minimumVersion = 5.1.1;
 			};
 		};
-		5B6634E325B59AE000AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634E325B59AE000AA3F19 /* XCRemoteSwiftPackageReference "LoginServiceKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/LoginServiceKit";
 			requirement = {
@@ -1398,7 +1823,7 @@
 				minimumVersion = 2.1.0;
 			};
 		};
-		5B6634E625B59C0300AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634E625B59C0300AA3F19 /* XCRemoteSwiftPackageReference "Magnet" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/Magnet";
 			requirement = {
@@ -1406,7 +1831,7 @@
 				minimumVersion = 3.2.0;
 			};
 		};
-		5B6634E925B59CBB00AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634E925B59CBB00AA3F19 /* XCRemoteSwiftPackageReference "Screeen" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/Screeen";
 			requirement = {
@@ -1414,7 +1839,7 @@
 				minimumVersion = 2.0.1;
 			};
 		};
-		5B6634EC25B5A16200AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634EC25B5A16200AA3F19 /* XCRemoteSwiftPackageReference "KeyHolder" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/KeyHolder";
 			requirement = {
@@ -1422,7 +1847,7 @@
 				minimumVersion = 4.0.0;
 			};
 		};
-		5B6634EF25B5B28400AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634EF25B5B28400AA3F19 /* XCRemoteSwiftPackageReference "RxScreeen" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/RxScreeen";
 			requirement = {
@@ -1430,7 +1855,7 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		5B6634F225B5B34D00AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634F225B5B34D00AA3F19 /* XCRemoteSwiftPackageReference "SwiftHEXColors" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/thii/SwiftHEXColors";
 			requirement = {
@@ -1438,7 +1863,7 @@
 				minimumVersion = 1.4.1;
 			};
 		};
-		5B6634F525B5B3FB00AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634F525B5B3FB00AA3F19 /* XCRemoteSwiftPackageReference "PINCache" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pinterest/PINCache";
 			requirement = {
@@ -1446,7 +1871,7 @@
 				minimumVersion = 3.0.3;
 			};
 		};
-		5B6634F825B5B49300AA3F19 /* RemoteSwiftPackageReference */ = {
+		5B6634F825B5B49300AA3F19 /* XCRemoteSwiftPackageReference "AEXML" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tadija/AEXML";
 			requirement = {
@@ -1454,7 +1879,7 @@
 				minimumVersion = 4.6.0;
 			};
 		};
-		5BAC35A125BAFC5A005075DE /* RemoteSwiftPackageReference */ = {
+		5BAC35A125BAFC5A005075DE /* XCRemoteSwiftPackageReference "Quick" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Quick";
 			requirement = {
@@ -1462,7 +1887,7 @@
 				minimumVersion = 2.2.0;
 			};
 		};
-		5BAC35A425BAFC7B005075DE /* RemoteSwiftPackageReference */ = {
+		5BAC35A425BAFC7B005075DE /* XCRemoteSwiftPackageReference "Nimble" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Quick/Nimble";
 			requirement = {
@@ -1470,7 +1895,7 @@
 				minimumVersion = 8.0.4;
 			};
 		};
-		5BFD62A025B58EA8002ECEC7 /* RemoteSwiftPackageReference */ = {
+		5BFD62A025B58EA8002ECEC7 /* XCRemoteSwiftPackageReference "Sauce" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Clipy/Sauce";
 			requirement = {
@@ -1481,109 +1906,109 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5B096C3A25BB176E00604CDF /* SwiftPackageProductDependency */ = {
+		5B096C3A25BB176E00604CDF /* CryptoSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B096C3925BB176E00604CDF /* RemoteSwiftPackageReference */;
+			package = 5B096C3925BB176E00604CDF /* XCRemoteSwiftPackageReference "CryptoSwift" */;
 			productName = CryptoSwift;
 		};
-		5B6634BB25B595B900AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634BB25B595B900AA3F19 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634B225B5953B00AA3F19 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = Realm;
 		};
-		5B6634BD25B595B900AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634BD25B595B900AA3F19 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634B225B5953B00AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634B225B5953B00AA3F19 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = RealmSwift;
 		};
-		5B6634C225B596C500AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634C225B596C500AA3F19 /* RxBlocking */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxBlocking;
 		};
-		5B6634C425B596C500AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634C425B596C500AA3F19 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		5B6634C625B596C500AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634C625B596C500AA3F19 /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
-		5B6634C825B596C500AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634C825B596C500AA3F19 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634BF25B596A100AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634BF25B596A100AA3F19 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
-		5B6634DB25B598F400AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634DB25B598F400AA3F19 /* RxRealm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634DA25B598F400AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634DA25B598F400AA3F19 /* XCRemoteSwiftPackageReference "RxRealm" */;
 			productName = RxRealm;
 		};
-		5B6634DE25B599BE00AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634DE25B599BE00AA3F19 /* RxOptional */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634DD25B599BE00AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634DD25B599BE00AA3F19 /* XCRemoteSwiftPackageReference "RxOptional" */;
 			productName = RxOptional;
 		};
-		5B6634E125B59A1200AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634E125B59A1200AA3F19 /* RxSwiftExt */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634E025B59A1200AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634E025B59A1200AA3F19 /* XCRemoteSwiftPackageReference "RxSwiftExt" */;
 			productName = RxSwiftExt;
 		};
-		5B6634E425B59AE000AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634E425B59AE000AA3F19 /* LoginServiceKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634E325B59AE000AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634E325B59AE000AA3F19 /* XCRemoteSwiftPackageReference "LoginServiceKit" */;
 			productName = LoginServiceKit;
 		};
-		5B6634E725B59C0300AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634E725B59C0300AA3F19 /* Magnet */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634E625B59C0300AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634E625B59C0300AA3F19 /* XCRemoteSwiftPackageReference "Magnet" */;
 			productName = Magnet;
 		};
-		5B6634EA25B59CBB00AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634EA25B59CBB00AA3F19 /* Screeen */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634E925B59CBB00AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634E925B59CBB00AA3F19 /* XCRemoteSwiftPackageReference "Screeen" */;
 			productName = Screeen;
 		};
-		5B6634ED25B5A16200AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634ED25B5A16200AA3F19 /* KeyHolder */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634EC25B5A16200AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634EC25B5A16200AA3F19 /* XCRemoteSwiftPackageReference "KeyHolder" */;
 			productName = KeyHolder;
 		};
-		5B6634F025B5B28400AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634F025B5B28400AA3F19 /* RxScreeen */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634EF25B5B28400AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634EF25B5B28400AA3F19 /* XCRemoteSwiftPackageReference "RxScreeen" */;
 			productName = RxScreeen;
 		};
-		5B6634F325B5B34D00AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634F325B5B34D00AA3F19 /* SwiftHEXColors */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634F225B5B34D00AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634F225B5B34D00AA3F19 /* XCRemoteSwiftPackageReference "SwiftHEXColors" */;
 			productName = SwiftHEXColors;
 		};
-		5B6634F625B5B3FB00AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634F625B5B3FB00AA3F19 /* PINCache */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634F525B5B3FB00AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634F525B5B3FB00AA3F19 /* XCRemoteSwiftPackageReference "PINCache" */;
 			productName = PINCache;
 		};
-		5B6634F925B5B49300AA3F19 /* SwiftPackageProductDependency */ = {
+		5B6634F925B5B49300AA3F19 /* AEXML */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5B6634F825B5B49300AA3F19 /* RemoteSwiftPackageReference */;
+			package = 5B6634F825B5B49300AA3F19 /* XCRemoteSwiftPackageReference "AEXML" */;
 			productName = AEXML;
 		};
-		5BAC35A225BAFC5A005075DE /* SwiftPackageProductDependency */ = {
+		5BAC35A225BAFC5A005075DE /* Quick */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5BAC35A125BAFC5A005075DE /* RemoteSwiftPackageReference */;
+			package = 5BAC35A125BAFC5A005075DE /* XCRemoteSwiftPackageReference "Quick" */;
 			productName = Quick;
 		};
-		5BAC35A525BAFC7B005075DE /* SwiftPackageProductDependency */ = {
+		5BAC35A525BAFC7B005075DE /* Nimble */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5BAC35A425BAFC7B005075DE /* RemoteSwiftPackageReference */;
+			package = 5BAC35A425BAFC7B005075DE /* XCRemoteSwiftPackageReference "Nimble" */;
 			productName = Nimble;
 		};
-		5BFD62A125B58EA8002ECEC7 /* SwiftPackageProductDependency */ = {
+		5BFD62A125B58EA8002ECEC7 /* Sauce */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5BFD62A025B58EA8002ECEC7 /* RemoteSwiftPackageReference */;
+			package = 5BFD62A025B58EA8002ECEC7 /* XCRemoteSwiftPackageReference "Sauce" */;
 			productName = Sauce;
 		};
 /* End XCSwiftPackageProductDependency section */
