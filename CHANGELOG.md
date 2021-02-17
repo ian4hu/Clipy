@@ -1,6 +1,7 @@
 # Change Log
-## NEXT RELEASE
-- TODO
+
+## 1.2.9.beta15
+- Fix Apple Silicon support. (#57)
 
 ## 1.2.9.beta14
 - upgrade dependecies (use swift packages instead of carthage)
