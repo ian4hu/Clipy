@@ -475,10 +475,7 @@ private extension MenuService {
 private extension NSMenu {
 
     func popUp() {
-        let location = NSEvent.mouseLocation
-        let isDarkMode = NSAppearance.current.name.rawValue.lowercased().contains("dark")
-        let appearance = NSAppearance(named: isDarkMode ? .vibrantDark : .vibrantLight)
-        popUpPositioningItem(nil, atLocation: location, in: nil, appearance: appearance)
+        popUp(positioning: nil, at: NSEvent.mouseLocation, in: nil)
     }
 }
 
