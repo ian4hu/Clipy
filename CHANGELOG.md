@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.9.beta16
+- Fix Apple Silicon support. (#57)
+
 ## 1.2.9.beta15
 - Fix Apple Silicon support. (#57)
 
