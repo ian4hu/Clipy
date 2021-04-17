@@ -20,6 +20,9 @@ jobs:
           ${{ runner.os }}-spm-
     - name: Download dependencies
       run: xcodebuild -resolvePackageDependencies -workspace Clipy.xcworkspace -scheme Clipy -configuration Release -clonedSourcePackagesDirPath SourcePackages
+    - name: Use release tag as version
+      if: startsWith(github.ref, 'refs/tags')
+      run: bash .travis/release-a-version.sh
     - name: Build
       run: bash .travis/build.sh
     - name: Prepare Delta
