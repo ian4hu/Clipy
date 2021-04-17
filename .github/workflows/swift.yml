@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    environment: SPARKLE_ED25519_KEY
+    environment: Sparkle Updates
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v2

@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.9.beta18
+- Fixes Sparkle update issues.
+
 ## 1.2.9.beta17
 - Drop Travis CI support.
 
